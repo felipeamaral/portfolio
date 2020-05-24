@@ -24,11 +24,12 @@
     "react": "^16.13.1",
     "react-country-flags": "^2.2.3",
     "react-dom": "^16.13.1",
+    "react-favicon": "0.0.18",
     "script-ext-html-webpack-plugin": "^2.1.4",
     "social-media-icons-react": "^1.0.10",
     "style-ext-html-webpack-plugin": "^4.1.2",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "url-loader": "^4.1.0",
+    "url-loader": "^3.0.0",
     "webpack-merge": "^4.2.2"
   },
   "devDependencies": {
@@ -37,6 +38,7 @@
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
+    "image-webpack-loader": "^6.0.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
