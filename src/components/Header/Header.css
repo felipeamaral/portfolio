@@ -19,7 +19,7 @@
 
 .header-navigation-title a {
     text-decoration: none;
-    font-family: Rubik;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -43,7 +43,7 @@
 
 .header-navigation-list a {
     text-decoration: none;
-    font-family: Rubik;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -62,7 +62,7 @@
     .header-navigation-title {
         margin-left: 1rem;
     
-        font-family: Rubik;
+        font-family: 'Open Sans';
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -72,7 +72,7 @@
 
     .header-navigation-title a {
         text-decoration: none;
-        font-family: Rubik;
+        font-family: 'Open Sans';
         font-style: normal;
         font-weight: normal;
         font-size: 1.2rem;
