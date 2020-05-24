@@ -4,9 +4,7 @@ import Header from './Header/Header.js'
 import SideDrawer from './SideDrawer/SideDrawer.js'
 import Backdrop from './Backdrop/Backdrop.js'
 import {SocialMediaIconsReact} from 'social-media-icons-react';
-// import IMAGE from './../assets/images/foto_5.png';
-
-// const PERSONAL_IMAGE_2='http://drive.google.com/uc?id=1hzRCPQAP_XAGsj9vVjLr-PVGj3_dBzr7'
+import IMAGE from './../assets/images/foto_5.png';
 
 export default class App extends Component {
 
@@ -39,7 +37,7 @@ export default class App extends Component {
                 {backdrop}
                 <SideDrawer show={this.state.sideDrawerOpen}/>
                 <div className="landing-personal-image">
-                    {/* <img src={IMAGE}/> */}
+                    <img src={IMAGE}/>
                 </div> 
                 <div className="landing-social-media">
                     <div className="landing-social-media-item">
