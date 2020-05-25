@@ -4,6 +4,9 @@ import { Redirect } from 'react-router-dom';
 
 import './Footer.css';
 import LOGO from './../../assets/images/favicon-32x32.png'
+import BR from './../../assets/images/brazil.png'
+import GB from './../../assets/images/uk.png'
+
 const Footer = props => {
 
     const [value, setValue] = useState('en')
@@ -50,18 +53,18 @@ const Footer = props => {
                 </div>
                 <div className="spacer" />
                 <div className="footer-navigation-language">
-                    <p>{i18n.t("footer_languages")}: </p>
+                    <p>{i18n.t("footer_languages")} </p>
                     <div className="footer-flag">
                         <span className="footer-flag-left" onClick={() => changeLanguage('pt', 'en')}>
                             <img
                                 alt="English"
-                                src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/GB.svg"
+                                src={GB}
                             />
                         </span>
                         <span className="footer-flag-right" onClick={() => changeLanguage('en', 'pt')}>
                             <img
                                 alt="Portugues"
-                                src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/BR.svg"
+                                src={BR}
                             />
                         </span>
                         

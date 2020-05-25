@@ -68,11 +68,9 @@
 }
 
 .footer-flag {
-    margin-top: 0.5rem;
+    margin-bottom: 0;
 }
 .footer-flag-left {
-    height: 24px;
-    width: 24px;
     display: inline-block;
     margin: 0;
     margin-left: 10px;
@@ -80,8 +78,6 @@
 }
 
 .footer-flag-right {
-    height: 24px;
-    width: 24px;
     display: inline-block;
     margin: 0;
     padding-left: 15px;
