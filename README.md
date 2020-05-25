@@ -21,7 +21,7 @@ Clone the repository to you machine and then:
 
 *npm install*
 
-*npm start*
+*npm start*  
 
 
 ## How build
@@ -34,5 +34,11 @@ Clone the repository to you machine and then:
 24.05.2020 - added responsive design to the landing page and to the header
 
 
-25.05.2020 - added `react router`
+25.05.2020 
+  * added `react router`
+  * added footer
+  * added flags to choose language
+  * added i18n for translations
+
+
 
