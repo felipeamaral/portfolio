@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import i18n from './../../../i18n'
 import './Header.css';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import {
@@ -24,9 +25,9 @@ const Header = props => (
                 <div className="spacer" />
                 <div className="header-navigation-list">
                     <ul>
-                        <li><NavLink activeClassName="navigation-active" to="/about">&nbsp;about&nbsp;</NavLink></li>
-                        <li><NavLink activeClassName="navigation-active" to="/projects">&nbsp;projects&nbsp;</NavLink></li>
-                        <li><NavLink activeClassName="navigation-active" to="/contact">&nbsp;contact&nbsp;</NavLink></li>
+                        <li><NavLink activeClassName="navigation-active" to="/about">&nbsp;{i18n.t("header_about")}&nbsp;</NavLink></li>
+                        <li><NavLink activeClassName="navigation-active" to="/projects">&nbsp;{i18n.t("header_projects")}&nbsp;</NavLink></li>
+                        <li><NavLink activeClassName="navigation-active" to="/contact">&nbsp;{i18n.t("header_contact")}&nbsp;</NavLink></li>
                     </ul>
                 </div>
                 <div>
