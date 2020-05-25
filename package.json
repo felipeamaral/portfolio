@@ -25,6 +25,7 @@
     "react-country-flags": "^2.2.3",
     "react-dom": "^16.13.1",
     "react-favicon": "0.0.18",
+    "react-router-dom": "^5.2.0",
     "script-ext-html-webpack-plugin": "^2.1.4",
     "social-media-icons-react": "^1.0.10",
     "style-ext-html-webpack-plugin": "^4.1.2",

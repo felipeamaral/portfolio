@@ -24,6 +24,10 @@ export default class App extends Component {
         this.setState({sideDrawerOpen: false});
     }
 
+    insideDrawerClickHandler() {
+        this.setState({sideDrawerOpen: false});
+    }
+
     render() {
         let backdrop;
 
@@ -34,8 +38,7 @@ export default class App extends Component {
             <div>
                 <Header drawerClickHandler={() => this.drawerToggleClickHandler()} />
                 {backdrop}
-                <SideDrawer show={this.state.sideDrawerOpen}/>
-                <Home />
+                <SideDrawer show={this.state.sideDrawerOpen} click={() => this.insideDrawerClickHandler()} />
             </div>
         )
     }
