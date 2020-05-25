@@ -1,0 +1,669 @@
+.span-with-color {
+    color: #fbbc04;
+    background-color: #2C3E50;  
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1920px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 200px;
+        left: 280px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 420px;
+        height: 420px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 385px;
+        top: 590px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 1000px;
+        top: 200px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 1000px;
+        height: 280;
+        top: 350px;
+        left: 760px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+    
+    
+        color: #2C3E50;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 200px;
+        left: 160px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 420px;
+        height: 420px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 260px;
+        top: 590px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 700px;
+        top: 170px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 650px;
+        height: 280;
+        top: 300px;
+        left: 620px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+    
+    
+        color: #2C3E50;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 200px;
+        left: 130px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 260px;
+        height: 260px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 160px;
+        top: 430px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 550px;
+        top: 150px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 900px;
+        height: 280;
+        top: 260px;
+        left: 350px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+    
+    
+        color: #2C3E50;
+    }
+    
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 230px;
+        height: 230px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 120px;
+        top: 400px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 370px;
+        top: 160px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 420px;
+        height: 280;
+        top: 230px;
+        left: 320px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+    
+    
+        color: #2C3E50;
+    }
+    
+}
+
+
+@media only screen and (min-width: 416px) and (max-width: 500px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 120px;
+        left: 180px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 250px;
+        height: 250px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 210px;
+        top: 330px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 130px;
+        top: 385px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #2C3E50;
+    }
+    
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 450px;
+        height: 280;
+        top: 430px;
+        left: 20px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    
+        color: #2C3E50;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 415px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 120px;
+        left: 140px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 210px;
+        height: 210px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 155px;
+        top: 290px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 80px;
+        top: 335px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 400px;
+        height: 280;
+        top: 380px;
+        left: 6px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    
+        color: #2C3E50;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 120px;
+        left: 130px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 190px;
+        height: 190px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 130px;
+        top: 270px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 60px;
+        top: 320px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 330px;
+        height: 280;
+        top: 380px;
+        left: 20px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    
+        color: #2C3E50;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 120px;
+        left: 130px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 150px;
+        height: 150px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 115px;
+        top: 230px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 40px;
+        top: 290px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 300px;
+        height: 280;
+        top: 350px;
+        left: 10px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    
+        color: #2C3E50;
+    }
+}
