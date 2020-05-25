@@ -4,7 +4,7 @@ import IMAGE from './../../assets/images/foto_5.png';
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 
 const Home = props => {
-    
+
     return (
         <div className="landing-container">
             <div className="landing-image-and-social-media">
@@ -36,11 +36,11 @@ const Home = props => {
                     <p> A&nbsp; 
                         <span className="span-with-color"> product manager </span> 
                         &nbsp;and former developer who seeks to&nbsp;
-                        <span className="span-with-color">understand and solve problems</span> 
+                        <span className="span-with-color"> understand and solve problems </span> 
                         &nbsp;by transforming user pain points into&nbsp;
-                        <span className="span-with-color">business opportunities</span> 
+                        <span className="span-with-color"> business opportunities </span> 
                         &nbsp;and in&nbsp;
-                        <span className="span-with-color">great products.</span>
+                        <span className="span-with-color"> great products. </span>
                         </p>
                 </div> 
             </div>
