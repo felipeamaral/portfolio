@@ -1,4 +1,5 @@
 import React from 'react';
+import i18n from './../../../i18n'
 import './Home.css';
 import IMAGE from './../../assets/images/foto_5.png';
 import {SocialMediaIconsReact} from 'social-media-icons-react';
@@ -28,19 +29,20 @@ const Home = props => {
             <div className="landing-text-description">
                 <div className="landing-main-text">
                     <span>
-                        Hi, my name is&nbsp; 
+                        {i18n.t("Hi, my name is")}&nbsp;
                         <span className="span-with-color">Felipe!</span>
                     </span>            
                 </div>
                 <div className="landing-sub-text">
-                    <p> A&nbsp; 
+                    <p> 
+                        {i18n.t("home_description_a")}&nbsp; 
                         <span className="span-with-color"> product manager </span> 
-                        &nbsp;and former developer who seeks to&nbsp;
-                        <span className="span-with-color"> understand and solve problems </span> 
-                        &nbsp;by transforming user pain points into&nbsp;
-                        <span className="span-with-color"> business opportunities </span> 
-                        &nbsp;and in&nbsp;
-                        <span className="span-with-color"> great products. </span>
+                        &nbsp;{i18n.t("home_description_and_former_developer_who_seeks_to")}&nbsp;
+                        <span className="span-with-color"> {i18n.t("home_description_understand_and_solve_problems")} </span> 
+                        &nbsp;{i18n.t("home_description_by_transforming_user_pain_points_into")}&nbsp;
+                        <span className="span-with-color"> {i18n.t("home_description_business_opportunities")} </span> 
+                        &nbsp;{i18n.t("home_description_and_in")}&nbsp;
+                        <span className="span-with-color"> {i18n.t("home_description_great_products")}. </span>
                         </p>
                 </div> 
             </div>
