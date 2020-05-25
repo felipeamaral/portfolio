@@ -3,7 +3,9 @@
     top: 0;
     left: 0;
     height: 56px;
+    background: white;
     position: fixed;
+    z-index: 1000;
 }
 
 .header-navigation {
@@ -25,6 +27,7 @@
     font-size: 1.5rem;
 
     color: #2C3E50;
+    /* color: #fbbc04;; */
 }
 
 .spacer {
@@ -49,6 +52,7 @@
     font-size: 1.5rem;
 
     color: #2C3E50;
+    /* color: #fbbc04; */
 }
 
 

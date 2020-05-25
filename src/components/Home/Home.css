@@ -1,0 +1,539 @@
+.span-with-color {
+    color: #fbbc04;
+    background-color: #2C3E50;  
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1920px) {
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 20%;
+        left: 42%;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 350px;
+        height: 350px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 46%;
+        top: 56%;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 39%;
+        top: 65%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+    .landing-main-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+    
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 500px;
+        height: 280;
+        left: 37%;
+        top: 80%;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+    
+    
+        color: #2C3E50;
+    }
+    
+    .landing-sub-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+    .landing-container {
+        width: 100%;
+    }
+    
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 200px;
+        left: 130px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 260px;
+        height: 260px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 170px;
+        top: 430px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 550px;
+        top: 150px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 900px;
+        height: 280;
+        top: 260px;
+        left: 350px;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+    
+    
+        color: #2C3E50;
+    }
+    
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 18%;
+        left: 38%;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 280px;
+        height: 280px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 44%;
+        top: 48%;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 25%;
+        top: 56%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+    .landing-main-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+    
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 500px;
+        height: 280;
+        left: 16%;
+        top: 75%;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 48px;
+        text-align: center;
+    
+    
+        color: #2C3E50;
+    }
+    
+    .landing-sub-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+}
+
+
+@media only screen and (min-width: 416px) and (max-width: 500px) {
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 15%;
+        left: 34%;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 250px;
+        height: 250px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 40%;
+        top: 43%;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 20%;
+        top: 52%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+    .landing-main-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+    
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 300px;
+        height: 280;
+        left: 23%;
+        top: 68%;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: right;
+    
+    
+        color: #2C3E50;
+    }
+    
+    .landing-sub-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 415px) {
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 15%;
+        left: 34%;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 250px;
+        height: 250px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 42%;
+        top: 44%;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 15%;
+        top: 52%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+    .landing-main-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+    
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 300px;
+        height: 280;
+        left: 19%;
+        top: 65%;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: right;
+    
+    
+        color: #2C3E50;
+    }
+    
+    .landing-sub-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 18%;
+        left: 33%;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 220px;
+        height: 220px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 38%;
+        top: 44%;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 11%;
+        top: 55%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        text-align: left;
+        color: #2C3E50;
+    }
+    
+    .landing-main-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+    
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 300px;
+        height: 280;
+        left: 15%;
+        top: 68%;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: right;
+    
+    
+        color: #2C3E50;
+    }
+    
+    .landing-sub-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 180px;
+        height: 180px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 34%;
+        top: 45%;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 14%;
+        top: 58%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        color: #2C3E50;
+    }
+    
+    .landing-main-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+    
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 230px;
+        height: 280;
+        left: 22%;
+        top: 70%;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 32px;
+        text-align: right;
+    
+    
+        color: #2C3E50;
+    }
+    
+    .landing-sub-text-offset {
+        color: #fbbc04;
+        background-color: #2C3E50;
+    }
+}
