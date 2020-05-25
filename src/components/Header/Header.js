@@ -17,23 +17,23 @@ import NotFound from './../NotFound/NotFound.js'
 const Header = props => (
     <HashRouter>
         <header className="header-container">
-        <div className="header-navigation">
-            <div className="header-navigation-title">
-                <span><NavLink exact to="/">felipe amaral</NavLink></span>
+            <div className="header-navigation">
+                <div className="header-navigation-title">
+                    <span><NavLink exact to="/">felipe amaral</NavLink></span>
+                </div>
+                <div className="spacer" />
+                <div className="header-navigation-list">
+                    <ul>
+                        <li><NavLink activeClassName="navigation-active" to="/about">&nbsp;about&nbsp;</NavLink></li>
+                        <li><NavLink activeClassName="navigation-active" to="/projects">&nbsp;projects&nbsp;</NavLink></li>
+                        <li><NavLink activeClassName="navigation-active" to="/contact">&nbsp;contact&nbsp;</NavLink></li>
+                    </ul>
+                </div>
+                <div>
+                    <DrawerToggleButton click={props.drawerClickHandler} />
+                </div>
             </div>
-            <div className="spacer" />
-            <div className="header-navigation-list">
-                <ul>
-                    <li><NavLink activeClassName="navigation-active" to="/about">&nbsp;about&nbsp;</NavLink></li>
-                    <li><NavLink activeClassName="navigation-active" to="/projects">&nbsp;projects&nbsp;</NavLink></li>
-                    <li><NavLink activeClassName="navigation-active" to="/contact">&nbsp;contact&nbsp;</NavLink></li>
-                </ul>
-            </div>
-            <div>
-                <DrawerToggleButton click={props.drawerClickHandler} />
-            </div>
-        </div>
-    </header>
+        </header>
     <div>
         <Switch>
             <Route exact path="/" component={Home}/>

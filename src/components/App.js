@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import Header from './Header/Header.js'
 import SideDrawer from './SideDrawer/SideDrawer.js'
-import Home from './Home/Home.js'
+import Footer from './Footer/Footer'
 import Backdrop from './Backdrop/Backdrop.js'
 
 export default class App extends Component {
@@ -39,6 +39,7 @@ export default class App extends Component {
                 <Header drawerClickHandler={() => this.drawerToggleClickHandler()} />
                 {backdrop}
                 <SideDrawer show={this.state.sideDrawerOpen} click={() => this.insideDrawerClickHandler()} />
+                <Footer />
             </div>
         )
     }
