@@ -4,14 +4,14 @@ import LanguageDetector from "i18next-browser-languagedetector";
 i18n.use(LanguageDetector).init({
   // we init with resources
   resources: {
-    en: {
+    "en": {
       translations: {
         "Hi, my name is": "Hi, my name",
         "header_contact": "contact",
         "header_projects": "projects",
         "header_about": "about",
         "footer_by": "by",
-        "footer_by": "languages",
+        "footer_languages": "languages",
         "home_description_a": "A",
         "home_description_and_former_developer_who_seeks_to": "and former developer who seeks to",
         "home_description_understand_and_solve_problems": "understand and solve problems",
@@ -22,7 +22,7 @@ i18n.use(LanguageDetector).init({
         
       }
     },
-    pt: {
+    "pt": {
       translations: {
         "Hi, my name is": "Olá, me chamo",
         "header_contact": "contato",
