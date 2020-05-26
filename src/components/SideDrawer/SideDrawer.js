@@ -1,5 +1,6 @@
 import React from 'react';
 import './SideDrawer.css';
+import i18n from './../../../i18n'
 import {
     NavLink,
     HashRouter
@@ -21,9 +22,9 @@ const SideDrawer = props => {
         <HashRouter>
             <nav className={drawerClasses}>
                 <ul>
-                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/about">&nbsp;about&nbsp;</NavLink></li>
-                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/projects">&nbsp;projects&nbsp;</NavLink></li>
-                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/contact">&nbsp;contact&nbsp;</NavLink></li>
+                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/about">&nbsp;{i18n.t("header_about")}&nbsp;</NavLink></li>
+                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/projects">&nbsp;{i18n.t("header_projects")}&nbsp;</NavLink></li>
+                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/contact">&nbsp;{i18n.t("header_contact")}&nbsp;</NavLink></li>
                 </ul>
             </nav>
         </HashRouter>  

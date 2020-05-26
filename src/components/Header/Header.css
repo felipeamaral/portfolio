@@ -6,6 +6,7 @@
     background: white;
     position: fixed;
     z-index: 1000;
+    border-bottom: 1px solid rgba(44, 62, 80, 0.2);
 }
 
 .header-navigation {

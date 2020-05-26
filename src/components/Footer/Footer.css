@@ -5,7 +5,7 @@
     height: 48px;
     background: white;
     position: fixed;
-    border-top: 2px solid rgba(44, 62, 80, 0.2);
+    border-top: 1px solid rgba(44, 62, 80, 0.2);
     z-index: 1000;
 }
 
