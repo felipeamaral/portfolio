@@ -9,12 +9,12 @@ import {
     HashRouter
   } from "react-router-dom";
 
-import Home from './../Home/Home.js'
-import About from './../About/About.js'
-import Projects from './../Projects/Projects.js'
-import Resume from './../Resume/Resume.js'
-import Contact from './../Contact/Contact.js'
-import NotFound from './../NotFound/NotFound.js'
+import Home from './../pages/Home/Home.js'
+import About from './../pages/About/About.js'
+import Projects from './../pages/Projects/Projects.js'
+import Resume from './../pages/Resume/Resume.js'
+import Contact from './../pages/Contact/Contact.js'
+import NotFound from './../pages/NotFound/NotFound.js'
 
 const Header = props => (
     <HashRouter>

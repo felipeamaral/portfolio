@@ -1,8 +1,9 @@
 import React from 'react';
 import './Resume.css';
-import i18n from './../../../i18n'
+import i18n from '../../../../i18n'
 
 const Resume = props => {
+
 
     return (
         <div className="page-section-container">

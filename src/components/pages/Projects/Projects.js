@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import i18n from './../../../i18n'
+import i18n from '../../../../i18n'
 
 const Projects = props => {
 

@@ -1,0 +1,79 @@
+.lg {
+    width: 328px;
+    height: 80px;
+    font-size: 24px;
+}
+
+.md {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.sm {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.styled-button-blue {
+    position: absolute;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 3px solid #2C3E50;
+}
+
+.styled-button-blue span {
+    width: 59px;
+    height: 33px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 33px;
+    padding: 0;
+
+    color: #2C3E50;
+}
+
+
+.styled-button-blue:hover {
+    background: #2C3E50;
+    border: 5px solid #2C3E50;
+    cursor: pointer;
+}
+
+.styled-button-blue:hover span {
+    color: white;
+}
+
+.styled-button-yellow {
+    position: absolute;
+    padding: 0;
+    background: #2C3E50;
+    border: 3px solid #fbbc04;
+    box-sizing: border-box;
+}
+
+.styled-button-yellow span {
+    width: 59px;
+    height: 33px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 33px;
+    padding: 0;
+
+    color: #fbbc04;
+}
+
+
+.styled-button-yellow:hover {
+    background: #fbbc04;
+    border: 5px solid #fbbc04;
+    cursor: pointer;
+}
+
+.styled-button-yellow:hover span {
+    color: #2C3E50;
+}
