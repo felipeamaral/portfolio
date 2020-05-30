@@ -49,18 +49,27 @@ const Home = props => {
                     </div> 
                 </div>
                 <div className="pages-button-1">
-                    <Button color="blue" size='md' text="botão 1"/>    
-                </div>
-                <div className="pages-button-2">
-                    <Button color="yellow" size='lg' text="botão 2"/>    
+                    <Button color="blue" size='md' text="more about me"/>    
                 </div>
             </div>
             <div className="landing-page-2">
                 <h1 className="page-2-title"> How do I work </h1>
+                <div>
+                    <p>...</p>
+                </div>
+                <div className="pages-button-2">
+                    <Button color="yellow" size='md' text="check my portfolio"/>    
+                </div>
             </div>
             <div className="landing-page-3">
-                <p> Alí </p>
+                <h1 className="page-3-title"> Where do I work </h1>
             </div>
+            <div>
+                <p>...</p>
+            </div>
+            <div className="pages-button-3">
+                    <Button color="blue" size='md' text="my resume"/>    
+                </div>
         </div>
     )
     

@@ -1,4 +1,5 @@
 .landing-container {
+    height: calc(100vh - 112px);
     width: 100%;
 }
 
@@ -9,22 +10,24 @@
 
 .landing-page-1 {
     background-color: white;
-    height: 100vh;
+    /* height: 100vh; */
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: row;
+
 }
 
 .landing-page-2 {
     background-color:  #2C3E50;
-    height: 100vh;
+    height: calc(100vh - 56px);
 }
 
 .landing-page-3 {
     background-color:  white;
-    height: 100vh;
+    height: calc(100vh - 56px);
+    
 }
-/* 
-.page-2-container {
-    width: 100%;
-} */
+
 .page-2-title {
     position: absolute;
     width: 100%;
@@ -36,24 +39,44 @@
     color: #fbbc04;
 }
 
-.pages-button-1 {
+.page-3-title {
     position: absolute;
     width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
     text-align: center;
-    justify-items: center;
+    color: #2C3E50;
+}
+
+.pages-button-1 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    align-items: flex-end;
+    text-align: center;
     justify-content: center;
-    margin-top: 15px;
-    
 }
 
 .pages-button-2 {
+    display: flex;
     position: absolute;
     width: 100%;
+    height: 90%;
+    align-items: flex-end;
     text-align: center;
-    justify-items: center;
     justify-content: center;
-    margin-top: 120px;
-    
+}
+
+.pages-button-3 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    /* align-items: flex-end; */
+    /* text-align: center; */
+    /* justify-content: center; */
 }
 
 @media only screen and (min-width: 1501px) and (max-width: 1920px) {
