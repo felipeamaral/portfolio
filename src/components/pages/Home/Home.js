@@ -64,10 +64,10 @@ const Home = props => {
                     </div> 
                 </div>
                 <div className="pages-button-1">
-                    <Button color="blue" size='md' text="more about me" click={goToAbout}/>    
+                    <Button color="blue" size='md' text={i18n.t("HOME_ABOUT_BUTTON")} click={goToAbout}/>    
                 </div>
             </div>
-            {/* <div className="landing-page-2">
+            <div className="landing-page-2">
                 <h1 className="page-2-title"> How do I work </h1>
                 <div>
                     <p>...</p>
@@ -76,7 +76,7 @@ const Home = props => {
                     <Button color="yellow" size='md' text="check my portfolio" click={goToPortfolio}/>    
                 </div>
             </div>
-            <div className="landing-page-3">
+            {/* <div className="landing-page-3">
                 <h1 className="page-3-title"> Where do I work </h1>
                 <div>
                     <p>...</p>
