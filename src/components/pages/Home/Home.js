@@ -4,8 +4,25 @@ import './Home.css';
 import Button from './../../commons/Button/Button.js';
 import IMAGE from './../../../assets/images/foto_5.png';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
+import {
+    useHistory,
+  } from "react-router-dom";
 
 const Home = props => {
+    const history = useHistory()
+
+    const goToAbout = () => {
+        console.log('about')
+        history.push('/about')
+    }
+
+    const goToResume = () => {
+        console.log('resume')
+    }
+
+    const goToPortfolio = () => {
+        console.log('portfolio')
+    }
 
     return (
         <div className="landing-container">
@@ -31,45 +48,43 @@ const Home = props => {
                 <div className="landing-text-description">
                     <div className="landing-main-text">
                         <span>
-                            {i18n.t("Hi, my name is")}&nbsp;
-                            <span className="span-with-color">Felipe!</span>
+                            {i18n.t("HOME_INTRODUCTION_NAME")}&nbsp;
                         </span>            
                     </div>
+                    <div className="landing-sub-title">
+                        <span>
+                            {i18n.t("HOME_INTRODUCTION_JOB")}&nbsp;
+                        </span>
+                    </div>
+                    <div className="landing-split-line" />
                     <div className="landing-sub-text">
                         <p> 
-                            {i18n.t("home_description_a")}&nbsp; 
-                            <span className="span-with-color"> product manager </span> 
-                            &nbsp;{i18n.t("home_description_and_former_developer_who_seeks_to")}&nbsp;
-                            <span className="span-with-color"> {i18n.t("home_description_understand_and_solve_problems")} </span> 
-                            &nbsp;{i18n.t("home_description_by_transforming_user_pain_points_into")}&nbsp;
-                            <span className="span-with-color"> {i18n.t("home_description_business_opportunities")} </span> 
-                            &nbsp;{i18n.t("home_description_and_in")}&nbsp;
-                            <span className="span-with-color"> {i18n.t("home_description_great_products")}. </span>
-                            </p>
+                            {i18n.t("HOME_INTRODUCTION_DESCRIPTION")}&nbsp;
+                        </p>
                     </div> 
                 </div>
                 <div className="pages-button-1">
-                    <Button color="blue" size='md' text="more about me"/>    
+                    <Button color="blue" size='md' text="more about me" click={goToAbout}/>    
                 </div>
             </div>
-            <div className="landing-page-2">
+            {/* <div className="landing-page-2">
                 <h1 className="page-2-title"> How do I work </h1>
                 <div>
                     <p>...</p>
                 </div>
                 <div className="pages-button-2">
-                    <Button color="yellow" size='md' text="check my portfolio"/>    
+                    <Button color="yellow" size='md' text="check my portfolio" click={goToPortfolio}/>    
                 </div>
             </div>
             <div className="landing-page-3">
                 <h1 className="page-3-title"> Where do I work </h1>
-            </div>
-            <div>
-                <p>...</p>
-            </div>
-            <div className="pages-button-3">
-                    <Button color="blue" size='md' text="my resume"/>    
+                <div>
+                    <p>...</p>
                 </div>
+                <div className="pages-button-3">
+                        <Button color="blue" size='md' text="my resume" click={goToResume}/>    
+                </div>
+            </div> */}
         </div>
     )
     

@@ -1,7 +1,9 @@
 {
-    "Hi, my name is": "Hi, my name",
-    "header_contact": "contact",
+    "HOME_INTRODUCTION_NAME": "FELIPE A. AMARAL",
+    "HOME_INTRODUCTION_JOB": "Product Manager",
+    "HOME_INTRODUCTION_DESCRIPTION": "A product manager, software engineer and UX enthusiast, who loves to understand and solve problem by creating great products.",
     "header_projects": "portfolio",
+    "header_contact": "contact",
     "header_about": "about",
     "header_resume": "resume",
     "footer_by": "by",

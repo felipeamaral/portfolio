@@ -7,7 +7,8 @@ import i18n from "./../i18n";
 
 import Favicon from 'react-favicon';
 
-import favicon from './assets/images/favicon-32x32.png'
+// import favicon from './assets/images/favicon-32x32.png'
+import favicon from './assets/images/felipe_logo-32x32.png'
 
 
 const appElement = document.getElementById('app')

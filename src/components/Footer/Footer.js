@@ -4,6 +4,7 @@ import { Redirect } from 'react-router-dom';
 
 import './Footer.css';
 import LOGO from './../../assets/images/favicon-32x32.png'
+import LOGO2 from './../../assets/images/felipe_logo-32x32.png'
 import BR from './../../assets/images/brazil.png'
 import GB from './../../assets/images/uk.png'
 
@@ -45,10 +46,10 @@ const Footer = props => {
             <div className="footer-navigation">
                 <div className="footer-navigation-title">
                     <div className="footer-navigation-title-image">
-                        <img src={LOGO} />
+                        <img src={LOGO2} />
                     </div>
                     <div className="footer-navigation-title-text">
-                        <p>{i18n.t("footer_by")} Felipe Amaral - 2020 </p>
+                        <p>Felipe Amaral - 2020 </p>
                     </div>
                 </div>
                 <div className="spacer" />

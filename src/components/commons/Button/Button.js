@@ -7,7 +7,7 @@ const Button = props => {
     let style= 'styled-button-'+props.color + ' '+props.size
 
     return (
-        <button className={style}>
+        <button className={style} onClick={props.click}>
             <span> {props.text} </span>
         </button>
     )
