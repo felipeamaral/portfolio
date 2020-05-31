@@ -1,13 +1,85 @@
+.landing-container {
+    height: calc(100vh - 112px);
+    width: 100%;
+}
+
 .span-with-color {
     color: #fbbc04;
     background-color: #2C3E50;  
 }
 
+.landing-page-1 {
+    background-color: white;
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.landing-page-2 {
+    background-color:  #2C3E50;
+    height: calc(100vh - 56px);
+}
+
+.landing-page-3 {
+    background-color:  white;
+    height: calc(100vh - 56px);
+}
+
+.page-2-title {
+    position: absolute;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    color: #fbbc04;
+}
+
+.page-3-title {
+    position: absolute;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    color: #2C3E50;
+}
+
+.pages-button-1 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 112px);
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
+.pages-button-2 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 180px);
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
+.pages-button-3 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 180px);
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 1501px) and (max-width: 1920px) {
-    .landing-container {
-        width: 100%;
-    }
-    
+
     .landing-image-and-social-media {
         display: flex;
         align-items: center;
@@ -51,45 +123,68 @@
         height: 100%;
         padding: 0 4rem;
     }
+
     /* Main Text - name */
     .landing-main-text {
         position: absolute;
         left: 1000px;
         top: 200px;
-        font-family: 'Open Sans';
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 48px;
         text-align: left;
         color: #2C3E50;
     }
-    
+
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 1100px;
+        top: 260px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 500px;
+        height: 0px;
+        left: 980px;
+        top: 320px;
+    }
 
     /* Sub Text - presentation */
     
     .landing-sub-text {
         position: absolute;
-        width: 1000px;
-        height: 280;
-        top: 350px;
-        left: 760px;
-    
-        font-family: 'Open Sans';
+        width: 500px;
+        height: 153px;
+        left: 980px;
+        top: 340px;
+
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 45px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
         text-align: center;
-    
-    
-        color: #2C3E50;
+
+        color: rgba(44, 62, 80, 0.8);
     }
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 1500px) {
-    .landing-container {
-        width: 100%;
-    }
     
     .landing-image-and-social-media {
         display: flex;
@@ -97,6 +192,7 @@
         height: 100%;
         padding: 0 4rem;
     }
+
     /* Images */
     .landing-personal-image {
         position: absolute;
@@ -134,45 +230,68 @@
         height: 100%;
         padding: 0 4rem;
     }
+    
     /* Main Text - name */
     .landing-main-text {
         position: absolute;
         left: 700px;
-        top: 170px;
-        font-family: 'Open Sans';
+        top: 200px;
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 48px;
         text-align: left;
         color: #2C3E50;
     }
-    
+
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 800px;
+        top: 260px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 500px;
+        height: 0px;
+        left: 680px;
+        top: 320px;
+    }
 
     /* Sub Text - presentation */
     
     .landing-sub-text {
         position: absolute;
-        width: 650px;
-        height: 280;
-        top: 300px;
-        left: 620px;
-    
-        font-family: 'Open Sans';
+        width: 500px;
+        height: 153px;
+        left: 680px;
+        top: 340px;
+
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 45px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
         text-align: center;
-    
-    
-        color: #2C3E50;
+
+        color: rgba(44, 62, 80, 0.8);
     }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1300px) {
-    .landing-container {
-        width: 100%;
-    }
     
     .landing-image-and-social-media {
         display: flex;
@@ -183,7 +302,7 @@
     /* Images */
     .landing-personal-image {
         position: absolute;
-        top: 200px;
+        top: 180px;
         left: 130px;
         border-radius: 100%;
         margin-top: -50px;
@@ -191,8 +310,8 @@
     }
     
     .landing-personal-image img {
-        width: 260px;
-        height: 260px; 
+        width: 340px;
+        height: 340px; 
         border-radius: 100%;
     }
 
@@ -201,8 +320,8 @@
     .landing-social-media {
         position: absolute;
         display: inline-flex;
-        left: 160px;
-        top: 430px;
+        left: 210px;
+        top: 490px;
         margin-right: 10%;
     }
     
@@ -217,47 +336,71 @@
         height: 100%;
         padding: 0 4rem;
     }
+    
+
     /* Main Text - name */
     .landing-main-text {
         position: absolute;
-        left: 550px;
-        top: 150px;
-        font-family: 'Open Sans';
+        left: 590px;
+        top: 170px;
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 42px;
         text-align: left;
         color: #2C3E50;
     }
-    
+
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 670px;
+        top: 230px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 520px;
+        height: 0px;
+        left: 530px;
+        top: 300px;
+    }
 
     /* Sub Text - presentation */
     
     .landing-sub-text {
         position: absolute;
-        width: 900px;
-        height: 280;
-        top: 260px;
-        left: 350px;
-    
-        font-family: 'Open Sans';
+        width: 520px;
+        height: 153px;
+        left: 530px;
+        top: 310px;
+
+        font-family: Helvetica Neur;
         font-style: normal;
         font-weight: normal;
-        font-size: 32px;
-        line-height: 48px;
+        font-size: 24px;
+        line-height: 32px;
         text-align: center;
-    
-    
-        color: #2C3E50;
+
+        color: rgba(44, 62, 80, 0.8);
     }
     
 }
 
 
-@media only screen and (min-width: 501px) and (max-width: 768px) {
-    .landing-container {
-        width: 100%;
-    }
+@media only screen and (min-width: 681px) and (max-width: 768px) {
     
     .landing-image-and-social-media {
         display: flex;
@@ -308,43 +451,65 @@
         position: absolute;
         left: 370px;
         top: 160px;
-        font-family: 'Open Sans';
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        text-align: left;
+        color: #2C3E50;
+    }
+
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 430px;
+        top: 200px;
+
+        font-family: Helvetica Neur;
         font-style: normal;
         font-weight: normal;
         font-size: 32px;
-        text-align: left;
-        color: #2C3E50;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 380px;
+        height: 0px;
+        left: 350px;
+        top: 260px;
     }
     
 
     /* Sub Text - presentation */
-    
+        
     .landing-sub-text {
         position: absolute;
-        width: 420px;
-        height: 280;
-        top: 230px;
-        left: 320px;
-    
-        font-family: 'Open Sans';
+        width: 380px;
+        height: 153px;
+        left: 350px;
+        top: 270px;
+
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        line-height: 35px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
         text-align: center;
-    
-    
-        color: #2C3E50;
+
+        color: rgba(44, 62, 80, 0.8);
     }
     
 }
 
 
-@media only screen and (min-width: 416px) and (max-width: 500px) {
-    .landing-container {
-        width: 100%;
-    }
-    
+@media only screen and (min-width: 416px) and (max-width: 680px) {
     .landing-image-and-social-media {
         display: flex;
         align-items: center;
@@ -394,38 +559,62 @@
         position: absolute;
         left: 130px;
         top: 385px;
-        font-family: 'Open Sans';
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 24px;
         text-align: center;
         color: #2C3E50;
     }
     
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 170px;
+        top: 410px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 300px;
+        height: 0px;
+        left: 90px;
+        top: 460px;
+    }
+
     /* Sub Text - presentation */
     
     .landing-sub-text {
         position: absolute;
-        width: 450px;
-        height: 280;
-        top: 430px;
-        left: 20px;
-    
-        font-family: 'Open Sans';
+        width: 300px;
+        height: 153px;
+        left: 90px;
+        top: 460px;
+
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
         text-align: center;
-    
-        color: #2C3E50;
+
+        color: rgba(44, 62, 80, 0.8);
     }
 }
 
 @media only screen and (min-width: 376px) and (max-width: 415px) {
-    .landing-container {
-        width: 100%;
-    }
     
     .landing-image-and-social-media {
         display: flex;
@@ -470,45 +659,69 @@
         height: 100%;
         padding: 0 4rem;
     }
+
     /* Main Text - name */
     .landing-main-text {
         position: absolute;
-        left: 80px;
+        left: 100px;
         top: 335px;
-        font-family: 'Open Sans';
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 24px;
         text-align: center;
         color: #2C3E50;
     }
     
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 140px;
+        top: 360px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 300px;
+        height: 0px;
+        left: 60px;
+        top: 410px;
+    }
 
     /* Sub Text - presentation */
     
     .landing-sub-text {
         position: absolute;
-        width: 400px;
-        height: 280;
-        top: 380px;
-        left: 6px;
-    
-        font-family: 'Open Sans';
+        width: 300px;
+        height: 153px;
+        left: 60px;
+        top: 410px;
+
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 20px;
         text-align: center;
-    
-        color: #2C3E50;
+
+        color: rgba(44, 62, 80, 0.8);
     }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-    .landing-container {
-        width: 100%;
-    }
-    
+
     .landing-image-and-social-media {
         display: flex;
         align-items: center;
@@ -552,45 +765,70 @@
         height: 100%;
         padding: 0 4rem;
     }
+
     /* Main Text - name */
     .landing-main-text {
         position: absolute;
-        left: 60px;
+        left: 80px;
         top: 320px;
-        font-family: 'Open Sans';
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 24px;
         text-align: center;
         color: #2C3E50;
     }
     
 
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 120px;
+        top: 340px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 300px;
+        height: 0px;
+        left: 40px;
+        top: 390px;
+    }
+
     /* Sub Text - presentation */
     
     .landing-sub-text {
         position: absolute;
-        width: 330px;
+        width: 300px;
         height: 280;
         top: 380px;
-        left: 20px;
+        left: 40px;
     
-        font-family: 'Open Sans';
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 20px;
         text-align: center;
     
-        color: #2C3E50;
+        color: rgba(44, 62, 80, 0.8);
     }
 }
 
 @media only screen and (max-width: 320px) {
-    .landing-container {
-        width: 100%;
-    }
-    
     .landing-image-and-social-media {
         display: flex;
         align-items: center;
@@ -634,36 +872,64 @@
         height: 100%;
         padding: 0 4rem;
     }
+    
     /* Main Text - name */
     .landing-main-text {
         position: absolute;
-        left: 40px;
-        top: 290px;
-        font-family: 'Open Sans';
+        left: 70px;
+        top: 265px;
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
         color: #2C3E50;
     }
     
+
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 100px;
+        top: 275px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 250px;
+        height: 0px;
+        left: 30px;
+        top: 310px;
+    }
 
     /* Sub Text - presentation */
     
     .landing-sub-text {
         position: absolute;
-        width: 300px;
+        width: 250px;
         height: 280;
-        top: 350px;
-        left: 10px;
+        top: 305px;
+        left: 30px;
     
-        font-family: 'Open Sans';
+        font-family: Helvetica Neur;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 300;
         font-size: 16px;
-        line-height: 25px;
+        line-height: 20px;
         text-align: center;
-    
-        color: #2C3E50;
+
+        color: rgba(44, 62, 80, 0.8);
     }
 }
