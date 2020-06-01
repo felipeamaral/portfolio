@@ -2,6 +2,7 @@ import React from 'react';
 import i18n from './../../../../i18n'
 import './Home.css';
 import Button from './../../commons/Button/Button.js';
+import IconText from './../../commons/IconText/IconText';
 import IMAGE from './../../../assets/images/foto_5.png';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
 import {
@@ -12,16 +13,15 @@ const Home = props => {
     const history = useHistory()
 
     const goToAbout = () => {
-        console.log('about')
         history.push('/about')
     }
 
     const goToResume = () => {
-        console.log('resume')
+        history.push('/resume')
     }
 
     const goToPortfolio = () => {
-        console.log('portfolio')
+        history.push('/projects')
     }
 
     return (
@@ -68,12 +68,27 @@ const Home = props => {
                 </div>
             </div>
             <div className="landing-page-2">
-                <h1 className="page-2-title"> How do I work </h1>
-                <div>
-                    <p>...</p>
+                <h1 className="page-2-title"> {i18n.t("HOME_INTRODUCTION_PROCESS_TITLE")} </h1>
+                <div className='page-2-icons-container'>
+                    <IconText icon="reasearch" title={i18n.t("HOME_PROCESS_RESEARCH_TITLE")} text={i18n.t("HOME_PROCESS_RESEARCH_TEXT")} />
+                    <IconText icon="ideate" title={i18n.t("HOME_PROCESS_DEFINE_TITLE")} text={i18n.t("HOME_PROCESS_DEFINE_TEXT")} />
+                    <IconText icon="build" title={i18n.t("HOME_PROCESS_BUILD_TITLE")} text={i18n.t("HOME_PROCESS_BUILD_TEXT")} />
+                    <IconText icon="refine" title={i18n.t("HOME_PROCESS_REFINE_TITLE")} text={i18n.t("HOME_PROCESS_REFINE_TEXT")} />
+                    {/* <div>
+                        <IconText icon="reasearch" title={i18n.t("HOME_PROCESS_RESEARCH_TITLE")} text={i18n.t("HOME_PROCESS_RESEARCH_TEXT")} />
+                    </div>
+                    <div>
+                        <IconText icon="ideate" title={i18n.t("HOME_PROCESS_DEFINE_TITLE")} text={i18n.t("HOME_PROCESS_DEFINE_TEXT")} />
+                    </div>
+                    <div>
+                        <IconText icon="build" title={i18n.t("HOME_PROCESS_BUILD_TITLE")} text={i18n.t("HOME_PROCESS_BUILD_TEXT")} />
+                    </div>
+                    <div>
+                        <IconText icon="refine" title={i18n.t("HOME_PROCESS_REFINE_TITLE")} text={i18n.t("HOME_PROCESS_REFINE_TEXT")} />
+                    </div> */}
                 </div>
                 <div className="pages-button-2">
-                    <Button color="yellow" size='md' text="check my portfolio" click={goToPortfolio}/>    
+                    <Button color="yellow" size='md' text={i18n.t("HOME_PROCESS_BUTTON")} click={goToPortfolio}/>    
                 </div>
             </div>
             {/* <div className="landing-page-3">
