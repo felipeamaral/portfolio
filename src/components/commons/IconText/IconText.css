@@ -24,7 +24,7 @@
 
 @media only screen and (min-width: 1501px) and (max-width: 1920px) {
     .icon-text-container {
-        padding: 4rem;
+        padding: 3rem;
         justify-content: center;
         justify-items: center;
         padding-top: 250px;
@@ -64,11 +64,17 @@
         padding: 0;
         padding-top: 120px;
         justify-content: center;
+        width: 300px;
         text-align: center;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 100px;
     }
 
     .icon-text-img {
         height: 50px;
+        width: 300px;
+        padding-bottom: 20px;
     }
     
     .icon-text-title {
@@ -80,8 +86,8 @@
         font-size: 28px;
         text-align: center;
         color: #FBBC04;
-        padding-left: 27%;
-        padding-top: 1.5rem;
+        padding: 0;
+        padding-bottom: 40px;
     }
     
     .icon-text-text {
@@ -92,22 +98,28 @@
         font-size: 20px;
         text-align: center;
         color: #FBBC04;
-        padding-top: 2rem;
-        padding-left: 27%;
+        padding: 0;
     
     }
 }
 
-@media only screen and (min-width: 1030px) and (max-width: 1300px) {
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
     .icon-text-container {
         flex: 0 50%;
         padding: 0;
         justify-content: center;
         text-align: center;
+        width: 300px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        padding-top: 10%;
     }
 
     .icon-text-img {
         height: 50px;
+        width: 300px;
+        padding-bottom: 20px;
     }
     
     .icon-text-title {
@@ -119,8 +131,8 @@
         font-size: 28px;
         text-align: center;
         color: #FBBC04;
-        padding-left: 150px;
-        padding-top: 1.5rem;
+        padding: 0;
+        padding-bottom: 40px;
     }
     
     .icon-text-text {
@@ -131,24 +143,30 @@
         font-size: 20px;
         text-align: center;
         color: #FBBC04;
-        padding-top: 2rem;
-        padding-left: 150px;
+        padding: 0;
     
     }
 }
 
 
-@media only screen and (min-width: 800px) and (max-width: 1029px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     .icon-text-container {
         flex: 0 50%;
         padding: 0;
         padding-top: 120px;
         justify-content: center;
         text-align: center;
+        width: 250px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 50px;
     }
 
     .icon-text-img {
         height: 50px;
+        width: 250px;
+        padding-bottom: 20px;
     }
     
     .icon-text-title {
@@ -157,51 +175,11 @@
         width: 250px;
         height: 50px;
         font-weight: bold;
-        font-size: 24px;
-        text-align: center;
-        color: #FBBC04;
-        padding-top: 1rem;
-        padding-left: 120px;
-    }
-    
-    .icon-text-text {
-        font-family: Helvetica Neur;
-        font-style: normal;
-        width: 250px;
-        font-weight: normal;
         font-size: 20px;
         text-align: center;
         color: #FBBC04;
-        padding-top: 1.2rem;
-        padding-left: 150px;
-    
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 800px) {
-    .icon-text-container {
-        flex: 0 50%;
         padding: 0;
-        padding-top: 120px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .icon-text-img {
-        height: 50px;
-    }
-    
-    .icon-text-title {
-        font-family: Helvetica Neur;
-        font-style: normal;
-        width: 250px;
-        height: 50px;
-        font-weight: bold;
-        font-size: 24px;
-        text-align: center;
-        color: #FBBC04;
-        padding-top: 1rem;
-        padding-left: 80px;
+        padding-bottom: 20px;
     }
     
     .icon-text-text {
@@ -209,11 +187,10 @@
         font-style: normal;
         width: 250px;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         color: #FBBC04;
-        padding-top: 1.2rem;
-        padding-left: 80px;
+        padding: 0;
     
     }
 }
@@ -225,10 +202,16 @@
         padding-top: 120px;
         justify-content: center;
         text-align: center;
+        width: 250px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
     }
 
     .icon-text-img {
         height: 50px;
+        width: 150px;
+        padding-bottom: 10px;
     }
     
     .icon-text-title {
@@ -240,8 +223,8 @@
         font-size: 24px;
         text-align: center;
         color: #FBBC04;
-        padding-top: 1rem;
-        padding-left: 80px;
+        padding: 0;
+        padding-bottom: 30px;
     }
     
     .icon-text-text {
@@ -252,95 +235,243 @@
         font-size: 20px;
         text-align: center;
         color: #FBBC04;
-        padding-top: 1.2rem;
-        padding-left: 80px;
-    
+        padding: 0;
     }
 }
 
-@media only screen and (min-width: 416px) and (max-width: 680px) {
+
+
+@media only screen and (min-width: 571px) and (max-width: 680px) {
     .icon-text-container {
         flex: 0 50%;
         padding: 0;
+        padding-top: 120px;
+        justify-content: center;
+        text-align: center;
+        width: 200px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
     }
 
     .icon-text-img {
         height: 50px;
-        padding-left: 100px;
+        width: 200px;
+        padding-bottom: 10px;
     }
     
     .icon-text-title {
         font-family: Helvetica Neur;
         font-style: normal;
-        width: 150px;
+        width: 200px;
         height: 50px;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
         color: #FBBC04;
-        padding-left: 40px;
+        padding: 0;
+        padding-bottom: 30px;
     }
     
     .icon-text-text {
         font-family: Helvetica Neur;
         font-style: normal;
-        width: 150px;
+        width: 200px;
         font-weight: normal;
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
         color: #FBBC04;
-        padding-left: 40px;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 570px) {
+    .icon-text-container {
+        flex: 0 50%;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .icon-text-img {
+        width: 300px;
+    }
+
+    .icon-text-img img {
+        width: 26px;
+        height: 32px;
+    }
+    
+    .icon-text-title {
+        font-family: Helvetica Neur;
+        font-style: normal;
+        width: 300px;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        color: #FBBC04;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    
+    .icon-text-text {
+        font-family: Helvetica Neur;
+        font-style: normal;
+        width: 300px;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #FBBC04;
+        padding: 0;
+        padding-bottom: 50px;
     
     }
 }
 
 @media only screen and (min-width: 376px) and (max-width: 415px) {
+    .icon-text-container {
+        flex: 0 50%;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
 
+    .icon-text-img {
+        width: 300px;
+        height: 30px;
+    }
+
+    .icon-text-img img {
+        width: 16px;
+        height: 22px;
+    }
+    
+    .icon-text-title {
+        font-family: Helvetica Neur;
+        font-style: normal;
+        width: 300px;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        color: #FBBC04;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    
+    .icon-text-text {
+        font-family: Helvetica Neur;
+        font-style: normal;
+        width: 300px;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #FBBC04;
+        padding: 0;
+        padding-bottom: 25px;
+    
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 375px) {
     .icon-text-container {
         flex: 0 50%;
         padding: 0;
-        margin-top: 50px;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
     }
 
     .icon-text-img {
-        height: 24px;
-        width: 24px;
-        padding-left: 100px;
+        width: 300px;
+        height: 30px;
     }
 
     .icon-text-img img {
-        width: 100%;
-        height: auto; 
+        width: 16px;
+        height: 22px;
     }
     
     .icon-text-title {
         font-family: Helvetica Neur;
         font-style: normal;
-        width: 150px;
-        height: 50px;
+        width: 300px;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         color: #FBBC04;
-        padding-left: 40px;
+        padding: 0;
+        padding-bottom: 10px;
     }
     
     .icon-text-text {
         font-family: Helvetica Neur;
         font-style: normal;
-        width: 150px;
+        width: 300px;
         font-weight: normal;
         font-size: 12px;
         text-align: center;
         color: #FBBC04;
-        padding-left: 40px;
+        padding: 0;
+        padding-bottom: 25px;
     
     }
 }
 
 @media only screen and (max-width: 320px) { 
+    .icon-text-container {
+        flex: 0 50%;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
 
+    .icon-text-img {
+        width: 300px;
+        height: 30px;
+    }
+
+    .icon-text-img img {
+        width: 16px;
+        height: 22px;
+    }
+    
+    .icon-text-title {
+        font-family: Helvetica Neur;
+        font-style: normal;
+        width: 300px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        color: #FBBC04;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    
+    .icon-text-text {
+        font-family: Helvetica Neur;
+        font-style: normal;
+        width: 300px;
+        font-weight: normal;
+        font-size: 12px;
+        text-align: center;
+        color: #FBBC04;
+        padding: 0;
+        padding-bottom: 25px;
+    
+    }
 }

@@ -4,7 +4,7 @@
     bottom: 0;
     height: 56px;
     background: white;
-    position: fixed;
+    position:  fixed;
     border-top: 1px solid rgba(44, 62, 80, 0.2);
     z-index: 1000;
 }
@@ -82,4 +82,28 @@
     margin: 0;
     padding-left: 15px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 320px) { 
+    .footer-container {
+        height: 26px;
+    }
+
+    .footer-flag img {
+        height: 16px;
+        width: 16px;
+    }
+
+    .footer-navigation-title-text {
+        font-size: 10px;
+    }
+
+    .footer-navigation-title-image img {
+        height: 16px;
+        width: 16px;
+    }
+
+    .footer-navigation-language p {
+        font-size: 10px;
+    }
 }
