@@ -26,9 +26,3 @@
         display: none;
     }
 }
-
-@media only screen and (max-width: 320px) {
-    .toggle-button {
-        margin-top: 0.5rem;
-    }
-}

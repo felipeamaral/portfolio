@@ -438,6 +438,7 @@
         text-align: center;
         align-content: center;
         align-items: center;
+        margin-bottom: 5px;
     }
 
     .icon-text-img {
@@ -446,8 +447,8 @@
     }
 
     .icon-text-img img {
-        width: 16px;
-        height: 22px;
+        width: 14px;
+        height: 20px;
     }
     
     .icon-text-title {
@@ -471,7 +472,7 @@
         text-align: center;
         color: #FBBC04;
         padding: 0;
-        padding-bottom: 25px;
+        padding-bottom: 10px;
     
     }
 }

@@ -86,7 +86,7 @@
 
 @media only screen and (max-width: 320px) { 
     .footer-container {
-        height: 26px;
+        height: 32px;
     }
 
     .footer-flag img {
@@ -98,12 +98,20 @@
         font-size: 10px;
     }
 
+    .footer-navigation-title-text p {
+        margin-top: 0.1rem;
+    }
+
     .footer-navigation-title-image img {
         height: 16px;
         width: 16px;
     }
 
+    .footer-navigation-language {
+        margin-right: 0;
+    }
     .footer-navigation-language p {
         font-size: 10px;
+        margin-top: 0.1rem;
     }
 }

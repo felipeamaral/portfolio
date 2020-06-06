@@ -79,7 +79,7 @@ const Home = props => {
                     <Button color="yellow" size='sm' text={i18n.t("HOME_PROCESS_BUTTON")} click={goToPortfolio}/>    
                 </div>
             </div>
-            <div className="landing-page-3">
+            {/* <div className="landing-page-3">
                 <h1 className="page-3-title"> {i18n.t("HOME_INTRODUCTION_WORK_TITLE")} </h1>
                 <div>
 
@@ -87,7 +87,7 @@ const Home = props => {
                 <div className="pages-button-3">
                     <Button color="blue" size='sm' text={i18n.t("HOME_WORK_BUTTON")} click={goToAbout}/>    
                 </div>    
-            </div>
+            </div> */}
         </div>
     )
     

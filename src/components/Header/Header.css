@@ -100,12 +100,8 @@
     color: #fbbc04 !important;
 }
 
-@media only screen and (max-width: 320px) { 
+/* @media only screen and (max-width: 320px) { 
     .header-container {
-        height: 26px;
+        height: 32px;
     }
-
-    .header-navigation-title {
-        margin-top: 0.5rem;
-    }
-}
+} */
