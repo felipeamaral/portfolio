@@ -1,8 +1,8 @@
 import React from 'react';
 import i18n from './../../../../i18n'
 import './Home.css';
-import Button from './../../commons/Button/Button.js';
-import IconText from './../../commons/IconText/IconText';
+import EducationCard from './../../commons/EducationCard/EducationCard';
+import WorkCard from './../../commons/WorkCard/WorkCard';
 import IMAGE from './../../../assets/images/foto_5.png';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
 import {
@@ -24,26 +24,17 @@ const Home = props => {
         history.push('/projects')
     }
 
+    const goToTop = () => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth' })
+    }
+
     return (
-        <div className="landing-container">
-            <div className="landing-page-1">
-                <div className="landing-image-and-social-media">
+        <div className="container">
+            <div className="landing-page">
+                <div className="landing-image-container">
                     <div className="landing-personal-image">
                         <img src={IMAGE}/>
                     </div> 
-                    <div className="landing-social-media">
-                        <div className="landing-social-media-item">
-                            <SocialMediaIconsReact icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,172,238,1)" iconSize="3" roundness="50%" url="https://twitter.com/felipea_amaral" size="24" />
-                        </div>
-                        
-                        <div className="landing-social-media-item">
-                            <SocialMediaIconsReact icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,114,177,1)" iconSize="3" roundness="50%" url="https://www.linkedin.com/in/felipeaamaral/" size="24" />    
-                        </div>
-                        
-                        <div className="landing-social-media-item">
-                            <SocialMediaIconsReact icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(44,62,80,1)" iconSize="3" roundness="50%" url="https://github.com/felipeamaral" size="24" />    
-                        </div>                    
-                    </div>
                 </div>
                 <div className="landing-text-description">
                     <div className="landing-main-text">
@@ -56,38 +47,108 @@ const Home = props => {
                             {i18n.t("HOME_INTRODUCTION_JOB")}&nbsp;
                         </span>
                     </div>
-                    <div className="landing-split-line" />
+                    <div className="landing-social-media">
+                        <SocialMediaIconsReact icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,172,238,1)" iconSize="3" roundness="50%" url="https://twitter.com/felipea_amaral" size="24" />
+                        <SocialMediaIconsReact icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,114,177,1)" iconSize="3" roundness="50%" url="https://www.linkedin.com/in/felipeaamaral/" size="24" />
+                        <SocialMediaIconsReact icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(44,62,80,1)" iconSize="3" roundness="50%" url="https://github.com/felipeamaral" size="24" />
+                    </div>
+                    <div className="container-with-color-yellow-1" />
                     <div className="landing-sub-text">
-                        <p> 
-                            {i18n.t("HOME_INTRODUCTION_DESCRIPTION")}&nbsp;
-                        </p>
-                    </div> 
-                </div>
-                <div className="pages-button-1">
-                    <Button color="blue" size='sm' text={i18n.t("HOME_ABOUT_BUTTON")} click={goToAbout}/>    
-                </div>
-            </div>
-            <div className="landing-page-2">
-                <h1 className="page-2-title"> {i18n.t("HOME_INTRODUCTION_PROCESS_TITLE")} </h1>
-                <div className='page-2-icons-container'>
-                    <IconText icon="reasearch" title={i18n.t("HOME_PROCESS_RESEARCH_TITLE")} text={i18n.t("HOME_PROCESS_RESEARCH_TEXT")} />
-                    <IconText icon="ideate" title={i18n.t("HOME_PROCESS_DEFINE_TITLE")} text={i18n.t("HOME_PROCESS_DEFINE_TEXT")} />
-                    <IconText icon="build" title={i18n.t("HOME_PROCESS_BUILD_TITLE")} text={i18n.t("HOME_PROCESS_BUILD_TEXT")} />
-                    <IconText icon="refine" title={i18n.t("HOME_PROCESS_REFINE_TITLE")} text={i18n.t("HOME_PROCESS_REFINE_TEXT")} />
-                </div>
-                <div className="pages-button-2">
-                    <Button color="yellow" size='sm' text={i18n.t("HOME_PROCESS_BUTTON")} click={goToPortfolio}/>    
-                </div>
-            </div>
-            {/* <div className="landing-page-3">
-                <h1 className="page-3-title"> {i18n.t("HOME_INTRODUCTION_WORK_TITLE")} </h1>
-                <div>
+                        {i18n.t("HOME_INTRODUCTION_DESCRIPTION")}&nbsp;
+                    </div>
+                    <div className="about-me-container">
+                        <div className="about-me-title">
+                            {i18n.t("header_about")}
+                        </div>
+                        <div className="about-me-text">
+                            <p>
+                                {i18n.t("about_me_description_1")}
+                            </p>
+                            <p>
+                                {i18n.t("about_me_description_2")}
+                            </p>
+                            <p>
+                                {i18n.t("about_me_description_3")}
+                            </p>
+                        </div>
+                        <div className="about-me-social-media">
+                            <SocialMediaIconsReact icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,172,238,1)" iconSize="3" roundness="50%" url="https://twitter.com/felipea_amaral" size="24" />
+                            <SocialMediaIconsReact icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,114,177,1)" iconSize="3" roundness="50%" url="https://www.linkedin.com/in/felipeaamaral/" size="24" />
+                            <SocialMediaIconsReact icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(44,62,80,1)" iconSize="3" roundness="50%" url="https://github.com/felipeamaral" size="24" />
+                        </div>
+                    </div>
+                    <div className="container-with-color-blue-1" /> 
+                    <div className="resume-title">
+                        {i18n.t("header_resume")}
+                    </div>
+                    <div className="resume-container">
+                        <div className="resume-work-title">
+                            experiência profissional
+                        </div>
+                        <div className="resume-work-container">
+                            <WorkCard 
+                                place="PontoTel" 
+                                period="jul/2015 - atual">
+                                    <span> Estagiário </span>
+                                    <span> Desenvolvedor </span>
+                                    <span> Tech Lead </span>
+                                    <span> Product Manager </span>
 
+                            </WorkCard>
+                            <WorkCard 
+                                place="Opus Software" 
+                                period="jan/2015 - jun/2015">
+                                    <span> Estagiário </span>
+                            </WorkCard>
+                        </div>
+
+                        <div className="resume-education-title">
+                            formação academica
+                        </div>
+                        <div className="resume-education-container">
+                            <EducationCard 
+                                course="Bel. em Ciências da Computação" 
+                                school="ICMC-USP/São Carlos" 
+                                period="2010-2015" />
+
+                            <EducationCard 
+                                course="CSF - Bsc in Computer Science" 
+                                school="Queen Mary, University of London" 
+                                period="2013-2014" />
+
+                            <EducationCard 
+                                course="Formação de Product Manager" 
+                                school="PM3" 
+                                period="2019" />
+
+                            <EducationCard 
+                                course="Formação em UX Design" 
+                                school="Mergo UX" 
+                                period="2019" />
+                        </div>
+                    </div>
+
+                    <div className="container-with-color-yellow-2" />
+                    <div className="portfolio-title">
+                        {i18n.t("header_projects")}
+                    </div>
+                    <div className="projects-container">
+                        <span> em construção...</span>
+                    </div>
+                    <div className="container-with-color-blue-2   " />
+                    <div className="contact-title">
+                        {i18n.t("header_contact")}
+                    </div>
+                    <div>
+                        <div className="contact-container">
+                            <span> em construção...</span>
+                        </div>
+                        <div className="back-to-top" onClick={goToTop}>
+                            voltar para o topo
+                        </div>
+                    </div>
                 </div>
-                <div className="pages-button-3">
-                    <Button color="blue" size='sm' text={i18n.t("HOME_WORK_BUTTON")} click={goToAbout}/>    
-                </div>    
-            </div> */}
+            </div>
         </div>
     )
     

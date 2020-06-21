@@ -39,7 +39,7 @@ export default class App extends Component {
                 <Header drawerClickHandler={() => this.drawerToggleClickHandler()} />
                 {backdrop}
                 <SideDrawer show={this.state.sideDrawerOpen} click={() => this.insideDrawerClickHandler()} />
-                <Footer />
+                {/* <Footer /> */}
             </div>
         )
     }

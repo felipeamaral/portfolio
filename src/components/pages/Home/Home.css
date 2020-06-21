@@ -1,1379 +1,350 @@
-.landing-container {
-    height: calc(100vh - 112px);
-    width: 100%;
-}
-
-.span-with-color {
-    color: #fbbc04;
-    background-color: #2C3E50;  
-}
-
-.landing-page-1 {
-    background-color: white;
-    height: calc(100vh - 56px);
-    display: flex;
-    flex-direction: row;
-
-}
-
-
-.pages-button-1 {
-    display: flex;
+.container {
     position: absolute;
-    width: 100%;
-    height: calc(100vh - 112px);
-    align-items: flex-end;
-    text-align: center;
-    justify-content: center;
 }
 
-.landing-page-2 {
-    background-color:  #2C3E50;
-    height: calc(100vh - 56px);
-    display: flex;
-    flex-direction: column;
-}
-
-.page-2-title {
-    position: absolute;
-    width: 100%;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    text-align: center;
-    color: #fbbc04;
-}
-
-.page-2-icons-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.pages-button-2 {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 130px);
-    align-items: flex-end;
-    text-align: center;
-    justify-content: center;
-}
-
-.landing-page-3 {
-    background-color:  white;
-    height: calc(100vh - 56px);
-}
-
-
-.page-3-title {
-    position: absolute;
-    width: 100%;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    text-align: center;
-    color: #2C3E50;
-}
-
-.pages-button-3 {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 130px);
-    align-items: flex-end;
-    text-align: center;
-    justify-content: center;
-}
-
-@media only screen and (min-width: 1501px) and (max-width: 1920px) {
-
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
+@media only screen and (min-width: 376px) and (max-width: 411px) { 
+    .header-navigation-title {
+        margin-left: 0;
     }
-    /* Images */
+    
+    .landing-container {
+        position: absolute;
+        width: 375px;
+        height: 713px;
+        left: 0px;
+        top: 100px;
+
+        background: black;
+    }
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 375px) { 
+    .header-navigation-title {
+        margin-left: 0;
+    }
+
+    .landing-page {
+        position: absolute;
+        width: 375px;
+        height: 433px;
+        left: 0px;
+        top: 100px;
+
+        background: #ffffff;
+    }
+
+    .landing-image-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
     .landing-personal-image {
         position: absolute;
-        top: 200px;
-        left: 280px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
+        top: 30px;
     }
-    
+
     .landing-personal-image img {
-        width: 420px;
-        height: 420px; 
-        border-radius: 100%;
+        width: 216px;
+        height: 228px;
+        border-radius: 50%;
     }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 385px;
-        top: 590px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
 
     .landing-text-description {
         display: flex;
+        justify-content: center;
+        text-align: center;
         align-items: center;
-        height: 100%;
-        padding: 0 4rem;
     }
 
-    /* Main Text - name */
     .landing-main-text {
         position: absolute;
-        left: 940px;
-        top: 200px;
-        font-family: Helvetica Neur;
+        height: 43px;
+        top: 277px;
+        font-family: Open Sans;
         font-style: normal;
-        font-weight: bold;
-        font-size: 48px;
-        text-align: left;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 49px;
+
         color: #2C3E50;
     }
 
-    /* Sub Title - job */
-
     .landing-sub-title {
         position: absolute;
-        left: 1050px;
-        top: 260px;
-
-        font-family: Helvetica Neur;
+        width: 205px;
+        height: 30px;
+        top: 330px;
+        
+        font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 500px;
-        height: 0px;
-        left: 920px;
-        top: 320px;
-    }
-
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
-        position: absolute;
-        width: 500px;
-        height: 153px;
-        left: 920px;
-        top: 340px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: 300;
         font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
+        line-height: 33px;
+        
+        color: #2C3E50; 
     }
 
-    .page-2-icons-container {
-        display: flex;
+    .landing-social-media {
+        display: flex;     
+        position: absolute;
         flex-direction: row;
+        justify-content: space-around;
+        width: 104px;
+        height: 24px;
+        left: 135px;
+        top: 372px;
+    }
+
+    .container-with-color-yellow-1 {
+        position: absolute;
+        width: 375px;
+        height: 384px;
+        left: 0px;
+        top: 423px;
+
+        background: #FBBC04;
+    }
+
+    .landing-sub-text {
+        position: absolute;
+        width: 311px;
+        height: 162px;
+        top: 464px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: right;
+
+        color: #2C3E50;
+    }
+
+    .about-me-container {
+        display: flex;
         justify-content: center;
         text-align: center;
-        padding: 0 2.5rem;
-    }
-    
-}
-
-@media only screen and (min-width: 1301px) and (max-width: 1500px) {
-    
-    .landing-image-and-social-media {
-        display: flex;
         align-items: center;
-        height: 100%;
-        padding: 0 4rem;
     }
 
-    /* Images */
-    .landing-personal-image {
+    .about-me-title {
         position: absolute;
-        top: 200px;
-        left: 160px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 420px;
-        height: 420px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 260px;
-        top: 590px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 700px;
-        top: 200px;
-        font-family: Helvetica Neur;
+        width: 249px;
+        height: 65px;
+        left: 63px;
+        top: 740px;
+        
+        font-family: Open Sans;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 600;
         font-size: 48px;
-        text-align: left;
-        color: #2C3E50;
-    }
-
-    /* Sub Title - job */
-
-    .landing-sub-title {
-        position: absolute;
-        left: 800px;
-        top: 260px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 500px;
-        height: 0px;
-        left: 680px;
-        top: 320px;
-    }
-
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
-        position: absolute;
-        width: 500px;
-        height: 153px;
-        left: 680px;
-        top: 340px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 28px;
+        line-height: 65px;
         text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1300px) {
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
-        position: absolute;
-        top: 180px;
-        left: 130px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 340px;
-        height: 340px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 210px;
-        top: 490px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 550px;
-        top: 170px;
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 42px;
-        text-align: left;
-        color: #2C3E50;
-    }
-
-    /* Sub Title - job */
-
-    .landing-sub-title {
-        position: absolute;
-        left: 630px;
-        top: 230px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 480px;
-        height: 0px;
-        left: 510px;
-        top: 300px;
-    }
-
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
-        position: absolute;
-        width: 480px;
-        height: 153px;
-        left: 510px;
-        top: 310px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 32px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1300px) and (min-height: 689px){
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
-        position: absolute;
-        top: 180px;
-        left: 130px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 340px;
-        height: 340px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 210px;
-        top: 490px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 550px;
-        top: 170px;
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 42px;
-        text-align: left;
-        color: #2C3E50;
-    }
-
-    /* Sub Title - job */
-
-    .landing-sub-title {
-        position: absolute;
-        left: 630px;
-        top: 230px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 480px;
-        height: 0px;
-        left: 510px;
-        top: 300px;
-    }
-
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
-        position: absolute;
-        width: 480px;
-        height: 153px;
-        left: 510px;
-        top: 310px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 32px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        padding-top: 40px;
-    }
-
-    .page-2-title {
-        position: absolute;
-        width: 100%;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        text-align: center;
-        color: #fbbc04;
-    }
-    
-
-}
-
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-    }
-    /* Images */
-    .landing-personal-image {
-        position: absolute;
-        top: 180px;
-        left: 130px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 260px;
-        height: 260px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 170px;
-        top: 410px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 450px;
-        top: 170px;
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        text-align: left;
-        color: #2C3E50;
-    }
-
-    /* Sub Title - job */
-
-    .landing-sub-title {
-        position: absolute;
-        left: 490px;
-        top: 205px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 26px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 290px;
-        height: 0px;
-        left: 440px;
-        top: 270px;
-    }
-
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
-        position: absolute;
-        width: 290px;
-        height: 153px;
-        left: 440px;
-        top: 270px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 24px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-
-}
-
-
-@media only screen and (min-width: 681px) and (max-width: 768px) {
-    
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
-        position: absolute;
-        top: 200px;
-        left: 100px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 230px;
-        height: 230px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 120px;
-        top: 400px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 350px;
-        top: 160px;
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        text-align: left;
-        color: #2C3E50;
-    }
-
-    /* Sub Title - job */
-
-    .landing-sub-title {
-        position: absolute;
-        left: 400px;
-        top: 200px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 28px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 300px;
-        height: 0px;
-        left: 340px;
-        top: 260px;
-    }
-    
-
-    /* Sub Text - presentation */
         
-    .landing-sub-text {
-        position: absolute;
-        width: 300px;
-        height: 153px;
-        left: 340px;
-        top: 270px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-    
-}
-
-
-@media only screen and (min-width: 571px) and (max-width: 680px) {
-    
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
-        position: absolute;
-        top: 200px;
-        left: 100px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 230px;
-        height: 230px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 120px;
-        top: 400px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 350px;
-        top: 160px;
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        text-align: left;
         color: #2C3E50;
     }
 
-    /* Sub Title - job */
-
-    .landing-sub-title {
+    .about-me-text {
         position: absolute;
-        left: 390px;
-        top: 190px;
+        width: 311px;
+        height: 101px;
+        left: 32px;
+        top: 807px;
 
-        font-family: Helvetica Neur;
+        font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
-        font-size: 22px;
-        line-height: 41px;
+        font-size: 18px;
+        line-height: 25px;
 
-        color: rgba(44, 62, 80, 0.5);
+        text-align: left;
+
+        color: #2C3E50;
     }
 
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
+    .about-me-social-media {
+        display: flex;     
         position: absolute;
-        width: 230px;
-        height: 0px;
-        left: 340px;
-        top: 260px;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 104px;
+        height: 24px;
+        left: 135px;
+        top: 1357px;
     }
-    
 
-    /* Sub Text - presentation */
+    .container-with-color-blue-1 {
+        position: absolute;
+        width: 375px;
+        height: 256px;
+        left: 0px;
+        top: 1480px;
         
-    .landing-sub-text {
-        position: absolute;
-        width: 230px;
-        height: 153px;
-        left: 340px;
-        top: 270px;
+        background: #2C3E50;
+    }
 
-        font-family: Helvetica Neur;
+    .resume-title {
+        position: absolute;
+        width: 207px;
+        height: 65px;
+        left: 86px;
+        top: 1639px;
+
+        font-family: Open Sans;
         font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 24px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 65px;
         text-align: center;
 
-        color: rgba(44, 62, 80, 0.8);
+        color: #FBBC04;
     }
 
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-    
-}
-
-
-@media only screen and (min-width: 416px) and (max-width: 570px) {
-    .landing-page-1 {
-        justify-content: center;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-    }
-
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
+    .container-with-color-yellow-2 {
         position: absolute;
-        top: 120px;
-        left: 150px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 200px;
-        height: 200px; 
-        border-radius: 100%;
+        width: 375px;
+        height: 256px;
+        left: 0px;
+        top: 2272px;
+        
+        background: #FBBC04;
     }
 
-    /* Social media icons */
-    
-    .landing-social-media {
+    .portfolio-title {
         position: absolute;
-        display: inline-flex;
-        left: 160px;
-        top: 280px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 100px;
-        top: 385px;
-        font-family: Helvetica Neur;
+        width: 193px;
+        height: 65px;
+        left: 91px;
+        top: 2431px;
+        
+        font-family: Open Sans;
         font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 65px;
         text-align: center;
+        
         color: #2C3E50;
     }
-    
-    /* Sub Title - job */
 
-    .landing-sub-title {
+    .container-with-color-blue-2 {
         position: absolute;
-        left: 145px;
-        top: 410px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
+        width: 375px;
+        height: 256px;
+        left: 0px;
+        top: 3059px;
+        
+        background: #2C3E50;
     }
 
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
+    .contact-title { 
         position: absolute;
-        width: 300px;
-        height: 0px;
-        left: 70px;
-        top: 460px;
+        width: 179px;
+        height: 65px;
+        left: 98px;
+        top: 3218px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+
+        color: #FBBC04;
     }
 
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
+    .resume-work-title {
         position: absolute;
-        width: 300px;
-        height: 153px;
-        left: 70px;
-        top: 460px;
-
-        font-family: Helvetica Neur;
+        width: 208px;
+        height: 25px;
+        left: 85px;
+        top: 1744px;
+        
+        font-family: Open Sans;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 600;
         font-size: 18px;
-        line-height: 28px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
+        line-height: 25px;
+        
+        color: #2C3E50;
+        
     }
 
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        margin-top: 130px;
-    }
-}
-
-@media only screen and (min-width: 376px) and (max-width: 415px) {
-    
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
+    .resume-work-container {
         position: absolute;
-        top: 120px;
-        left: 140px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 210px;
-        height: 210px; 
-        border-radius: 100%;
+        left: 34px;
+        top: 1779px;
     }
 
-    /* Social media icons */
-    
-    .landing-social-media {
+
+    .resume-education-title {
         position: absolute;
-        display: inline-flex;
-        left: 155px;
-        top: 290px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
+        width: 186px;
+        height: 25px;
+        left: 96px;
+        top: 1951px;
 
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 100px;
-        top: 335px;
-        font-family: Helvetica Neur;
+        font-family: Open Sans;
         font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height */
+
         color: #2C3E50;
     }
-    
-    /* Sub Title - job */
 
-    .landing-sub-title {
+    .resume-education-container {
         position: absolute;
-        left: 140px;
-        top: 360px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
+        left: 34px;
+        top: 1985px;
     }
 
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
+    .projects-container {
         position: absolute;
-        width: 300px;
-        height: 0px;
-        left: 60px;
-        top: 410px;
-    }
-
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
-        position: absolute;
-        width: 300px;
-        height: 153px;
-        left: 60px;
-        top: 410px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 20px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
-    }
-
-    .page-2-title { 
-        font-size: 32px;
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        margin-top: 90px;
-    }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 375px) {
-
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
-        position: absolute;
-        top: 120px;
-        left: 130px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
+        width: 312px;
+        height: 444px;
+        left: 32px;
+        top: 2571px;
     }
     
-    .landing-personal-image img {
-        width: 190px;
-        height: 190px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
+    .contact-container {
         position: absolute;
-        display: inline-flex;
-        left: 130px;
-        top: 270px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 80px;
-        top: 320px;
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        text-align: center;
-        color: #2C3E50;
-    }
-    
-
-    /* Sub Title - job */
-
-    .landing-sub-title {
-        position: absolute;
-        left: 120px;
-        top: 340px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 300px;
-        height: 0px;
+        width: 295px;
+        height: 378px;
         left: 40px;
-        top: 390px;
+        top: 3365px;
     }
 
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
+    .back-to-top {
+        cursor: pointer;
         position: absolute;
-        width: 300px;
-        height: 280;
-        top: 380px;
-        left: 40px;
-    
-        font-family: Helvetica Neur;
+        width: 157px;
+        height: 25px;
+        left: 109px;
+        top: 3923px;
+
+        font-family: Open Sans;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 600;
         font-size: 18px;
-        line-height: 20px;
-        text-align: center;
-    
-        color: rgba(44, 62, 80, 0.8);
-    }
+        line-height: 25px;
+        /* identical to box height */
 
-    .page-2-title { 
-        font-size: 26px;
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
         text-align: center;
-        margin-top: 70px;
+
+        color: #2C3E50;  
+        margin-bottom: 10%;
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .landing-image-and-social-media {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    /* Images */
-    .landing-personal-image {
-        position: absolute;
-        top: 120px;
-        left: 130px;
-        border-radius: 100%;
-        margin-top: -50px;
-        margin-left: -40px;
-    }
-    
-    .landing-personal-image img {
-        width: 150px;
-        height: 150px; 
-        border-radius: 100%;
-    }
-
-    /* Social media icons */
-    
-    .landing-social-media {
-        position: absolute;
-        display: inline-flex;
-        left: 115px;
-        top: 230px;
-        margin-right: 10%;
-    }
-    
-    .landing-social-media-item {
-        margin-right: 20%;
-    }
-
-
-    .landing-text-description {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        padding: 0 4rem;
-    }
-    
-    /* Main Text - name */
-    .landing-main-text {
-        position: absolute;
-        left: 70px;
-        top: 265px;
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        text-align: left;
-        color: #2C3E50;
-    }
-    
-
-    /* Sub Title - job */
-
-    .landing-sub-title {
-        position: absolute;
-        left: 100px;
-        top: 275px;
-
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 41px;
-
-        color: rgba(44, 62, 80, 0.5);
-    }
-
-    /* Split line */
-
-    .landing-split-line {
-        border: 1px solid rgba(44, 62, 80, 0.2);
-        position: absolute;
-        width: 250px;
-        height: 0px;
-        left: 30px;
-        top: 310px;
-    }
-
-    /* Sub Text - presentation */
-    
-    .landing-sub-text {
-        position: absolute;
-        width: 250px;
-        height: 280;
-        top: 305px;
-        left: 30px;
-    
-        font-family: Helvetica Neur;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;
-
-        color: rgba(44, 62, 80, 0.8);
-    }
-
-    .page-2-title { 
-        font-size: 20px;
-    }
-
-    .page-2-icons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .pages-button-2 {
-        height: calc(100vh - 80px);
+@media only screen and (max-width: 320px) { 
+    .header-navigation-title {
+        margin-left: 0;
     }
 }
