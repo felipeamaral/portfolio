@@ -10,7 +10,7 @@
 
 ## About
 
-`Portfolio` is a personal website that can accessed [here](https://www.felipeaamaral.com). 
+`Portfolio` is a personal website. 
 
 This is a personal project used to study React and it is developed and maintained by [Felipe Amaral](https://github.com/felipeamaral).
 
@@ -28,17 +28,6 @@ Clone the repository to you machine and then:
 
 *npm run build*
 
-
-## Changes
-
-24.05.2020 - added responsive design to the landing page and to the header
-
-
-25.05.2020 
-  * added `react router`
-  * added footer
-  * added flags to choose language
-  * added i18n for translations
 
 
 

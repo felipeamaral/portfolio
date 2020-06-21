@@ -3,6 +3,7 @@ import i18n from './../../../../i18n'
 import './Home.css';
 import EducationCard from './../../commons/EducationCard/EducationCard';
 import WorkCard from './../../commons/WorkCard/WorkCard';
+import ContactForm from './../../commons/ContactForm/ContactForm';
 import IMAGE from './../../../assets/images/foto_5.png';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
 import {
@@ -57,7 +58,7 @@ const Home = props => {
                 </div>
             </div>
             <div className="about-me-container">
-                <div className="about-me-title">
+                <div id='about' className="about-me-title">
                     {i18n.t("header_about")}
                 </div>
                 <div className="about-me-text">
@@ -71,15 +72,10 @@ const Home = props => {
                         {i18n.t("about_me_description_3")}
                     </p>
                 </div>
-                <div className="about-me-social-media">
-                    <SocialMediaIconsReact icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,172,238,1)" iconSize="3" roundness="50%" url="https://twitter.com/felipea_amaral" size="24" />
-                    <SocialMediaIconsReact icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,114,177,1)" iconSize="3" roundness="50%" url="https://www.linkedin.com/in/felipeaamaral/" size="24" />
-                    <SocialMediaIconsReact icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(44,62,80,1)" iconSize="3" roundness="50%" url="https://github.com/felipeamaral" size="24" />
-                </div>
                 <div className="container-with-color-blue-1" /> 
             </div>
             <div className="resume-container">
-                <div className="resume-title">
+                <div id='resume' className="resume-title">
                     {i18n.t("header_resume")}
                 </div>
                 <div className="resume-work-title">
@@ -129,14 +125,18 @@ const Home = props => {
                 <div className="container-with-color-yellow-2" />
             </div>
             <div className="portfolio-container">                
-                <div className="portfolio-title">
+                <div id='portfolio' className="portfolio-title">
                     {i18n.t("header_projects")}
                 </div>
-                <div className="container-with-color-blue-2   " />
+                <div className="container-with-color-blue-2" />
             </div>
             <div className="contact-container"> 
-                <div className="contact-title">
+                <div id='contact' className="contact-title">
                     {i18n.t("header_contact")}
+                </div>
+                <div className="contact-form">
+                    em construção
+                    {/* <ContactForm /> */}
                 </div>
                 <div className="back-to-top" onClick={goToTop}>
                     voltar para o topo

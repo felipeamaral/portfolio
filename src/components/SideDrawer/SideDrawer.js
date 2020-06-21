@@ -5,6 +5,7 @@ import {
     NavLink,
     HashRouter
   } from "react-router-dom";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const SideDrawer = props => {
     let drawerClasses = ['side-drawer']
@@ -22,10 +23,10 @@ const SideDrawer = props => {
         <HashRouter>
             <nav className={drawerClasses}>
                 <ul>
-                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/about">&nbsp;{i18n.t("header_about")}&nbsp;</NavLink></li>
-                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/resume">&nbsp;{i18n.t("header_resume")}&nbsp;</NavLink></li>
-                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/projects">&nbsp;{i18n.t("header_projects")}&nbsp;</NavLink></li>
-                    <li onClick={props.click}><NavLink activeClassName="navigation-active" to="/contact">&nbsp;{i18n.t("header_contact")}&nbsp;</NavLink></li>
+                    <li onClick={props.click}><AnchorLink href="#about">&nbsp;{i18n.t("header_about")}&nbsp;</AnchorLink></li>
+                    <li onClick={props.click}><AnchorLink href="#resume">&nbsp;{i18n.t("header_resume")}&nbsp;</AnchorLink></li>
+                    <li onClick={props.click}><AnchorLink href="#portfolio">&nbsp;{i18n.t("header_projects")}&nbsp;</AnchorLink></li>
+                    <li onClick={props.click}><AnchorLink href="#contact">&nbsp;{i18n.t("header_contact")}&nbsp;</AnchorLink></li>
                 </ul>
             </nav>
         </HashRouter>  

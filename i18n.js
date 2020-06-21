@@ -12,7 +12,7 @@ i18n.use(LanguageDetector).init({
       translations: translationPT,
     }
   },
-  fallbackLng: "en",
+  fallbackLng: "pt",
   debug: true,
 
   // have a common namespace used around the full app

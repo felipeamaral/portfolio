@@ -77,3 +77,23 @@
 .styled-button-yellow:hover span {
     color: #2C3E50;
 }
+
+.styled-button-full-blue {
+    position: absolute;
+    padding: 0;
+    background: #2C3E50;
+    border: 3px solid #2C3E50;
+    box-sizing: border-box;
+}
+
+.styled-button-full-blue span {
+    width: 59px;
+    height: 33px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 33px;
+    padding: 0;
+
+    color: #fbbc04;
+}

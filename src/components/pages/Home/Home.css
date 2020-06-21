@@ -35,7 +35,7 @@
 .landing-main-text {
     position: absolute;
     height: 43px;
-    top: 277px;
+    top: 367px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -48,7 +48,7 @@
 .landing-sub-title {
     position: absolute;
     height: 30px;
-    top: 350px;
+    top: 440px;
     
     font-family: Open Sans;
     font-style: normal;
@@ -57,6 +57,7 @@
     line-height: 55px;
     
     color: #2C3E50; 
+    opacity: 80%;
 }
 
 .landing-social-media {
@@ -66,27 +67,30 @@
     justify-content: space-around;
     width: 104px;
     height: 24px;
-    top: 372px;
+    top: 500px;
 }
 
 .container-with-color-yellow-1 {
     position: absolute;
     width: 100%;
+    top: 550px;
+    height: 500px;
     
     background: #FBBC04;
 }
 
 .landing-sub-text {
     position: absolute;
-    width: 958px;
+    width: 70%;
+    /* width: 1024px; */
     height: 162px;
-    top: 464px;
+    top: 630px;
 
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 65px;
+    font-size: 36px;
+    line-height: 48px;
     text-align: center;
 
     color: #2C3E50;
@@ -103,7 +107,9 @@
     position: absolute;
     width: 249px;
     height: 65px;
-    top: 740px;
+    top: 930px;
+
+    margin-top: 10px;
     
     font-family: Open Sans;
     font-style: normal;
@@ -117,16 +123,17 @@
 
 .about-me-text {
     position: absolute;
-    width: 311px;
+    /* width: 877px; */
+    width: 50%;
     height: 101px;
     left: 32px;
-    top: 807px;
+    top: 1050px;
 
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 26px;
+    line-height: 38px;
 
     text-align: left;
 
@@ -140,13 +147,17 @@
     justify-content: space-around;
     width: 104px;
     height: 24px;
-    left: 135px;
-    top: 1357px;
+    top: 1680px;
 }
 
 .container-with-color-blue-1 {
     position: absolute;
     width: 100%;
+
+    height: 247px;
+    left: 0px;
+    top: 1800px;
+
 
     background: #2C3E50;
 }
@@ -162,7 +173,7 @@
     position: absolute;
     width: 207px;
     height: 65px;
-    top: 1639px;
+    top: 1960px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -176,14 +187,14 @@
 
 .resume-work-title {
     position: absolute;
-    width: 208px;
+    width: 100%;
     height: 25px;
-    top: 1744px;
+    top: 2060px;
     
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 25px;
     
     color: #2C3E50;
@@ -192,38 +203,40 @@
 
 .resume-work-container {
     position: absolute;
-    left: 34px;
-    top: 1779px;
+    /* left: 34px; */
+    top: 2110px;
 }
 
 
 .resume-education-title {
     position: absolute;
-    width: 186px;
+    width: 100%;
     height: 25px;
-    top: 1951px;
+    top: 2380px;
 
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 25px;
-    /* identical to box height */
+    /* ident ical to box height */
 
     color: #2C3E50;
 }
 
 .resume-education-container {
     position: absolute;
-    left: 34px;
-    top: 1985px;
+    /* left: 34px; */
+    top: 2450px;
 }
 
 
 .container-with-color-yellow-2 {
     position: absolute;
     width: 100%;
-
+    height: 200px;
+    left: 0px;
+    top: 2850px;
     background: #FBBC04;
 }
 
@@ -239,7 +252,7 @@
     position: absolute;
     width: 193px;
     height: 65px;
-    top: 2431px;
+    top: 2950px;
     
     font-family: Open Sans;
     font-style: normal;
@@ -256,6 +269,10 @@
     position: absolute;
     width: 100%;
 
+    height: 200px;
+    left: 0px;
+    top: 3850px;
+
     background: #2C3E50;
 }
 
@@ -271,7 +288,7 @@
     position: absolute;
     width: 179px;
     height: 65px;
-    top: 3218px;
+    top: 3950px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -283,13 +300,18 @@
     color: #FBBC04;
 }
 
+.contact-form {
+    position: absolute;
+    top: 4500px;
+
+}
 
 .back-to-top {
     cursor: pointer;
     position: absolute;
     width: 157px;
     height: 25px;
-    top: 3923px;
+    top: 4850px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -300,8 +322,32 @@
 
     text-align: center;
 
-    color: #2C3E50;  
-    margin-bottom: 10%;
+    color: #2C3E50;
+    padding-bottom: 50px;  
+}
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 1024px) {
+    .about-me-text {
+        position: absolute;
+        /* width: 877px; */
+        width: 50%;
+        height: 101px;
+        left: 32px;
+        top: 1050px;
+    
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+    
+        text-align: left;
+    
+        color: #2C3E50;
+    }
+
 }
 
 @media only screen and (min-width: 376px) and (max-width: 414px) { 

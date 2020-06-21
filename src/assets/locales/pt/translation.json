@@ -1,7 +1,7 @@
 {
     "HOME_INTRODUCTION_NAME": "FELIPE AMARAL",
     "HOME_INTRODUCTION_JOB": "Product Manager",
-    "HOME_INTRODUCTION_DESCRIPTION": "Um product manager, desenvolvedor e entusiasta de UX, que procura criar produtos que resolvam problemas reais e ajudam as pessoas.",
+    "HOME_INTRODUCTION_DESCRIPTION": "Product manager, desenvolvedor e entusiasta de UX, tentando ajudar as pessoas a resolverem seus problemas através de bons produtos.",
     "HOME_ABOUT_BUTTON": "mais sobre mim",
     "HOME_INTRODUCTION_PROCESS_TITLE": "MEU PROCESSO",
     "HOME_INTRODUCTION_WORK_TITLE": "ONDE EU TRABALHO",
@@ -35,7 +35,7 @@
     "about_section_certifications": "certificações",
     "project_section_project": "meus projetos",
     "contact_section_contact": "contato",
-    "about_me_description_1": "Natural de Araraquara, mas já morei em São Carlos e Londres.  Atualmente vivo e trabalho em São Paulo.",
-    "about_me_description_2": "Sou formado em ciências da computação pela USP/São Carlos. Nos últimos anos trabalhei na PontoTel como desenvolvedor fullstack e recentemente comecei um processo de transicação para product management. Até o momento tem sido uma experiência muito boa e desafiadora.",
-    "about_me_description_3": "Amo viajar e me desafiar em viagens solo, conhecendo novos lugares e novas pessoas. Um dos meus passatempos preferidos é ir ao estádio acompanhar os jogos do Palmeiras."
+    "about_me_description_1": "Sou natural de Araraquara (SP), já morei em São Carlos e Londres mas atualmente vivo e trabalho em São Paulo.",
+    "about_me_description_2": "Minha formação é em ciências da computação pela USP/São Carlos e nos últimos anos trabalhei na PontoTel como desenvolvedor fullstack. Recentemente comecei um processo de transicação para product management, onde tenho focado meu trabalho mais em produto e menos em desenvolvimento. Posso dizer que essa experiência está sendo bem interessante.",
+    "about_me_description_3": "Sempre que posso tento viajar para algum lugar que não conheço e, eventualmente, me desafiando em viagens solo. Um dos meus passatempos preferidos é ir ao estádio acompanhar os jogos do meu time de coração, o Palmeiras :)"
 }
