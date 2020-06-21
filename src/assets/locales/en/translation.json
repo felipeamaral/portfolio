@@ -1,7 +1,20 @@
 {
-    "HOME_INTRODUCTION_NAME": "FELIPE A. AMARAL",
+    "HOME_INTRODUCTION_NAME": "FELIPE AMARAL",
     "HOME_INTRODUCTION_JOB": "Product Manager",
     "HOME_INTRODUCTION_DESCRIPTION": "A product manager, software engineer and UX enthusiast, who loves to understand and solve problem by creating great products.",
+    "HOME_ABOUT_BUTTON": "more about me",
+    "HOME_INTRODUCTION_PROCESS_TITLE": "MY PROCESS",
+    "HOME_INTRODUCTION_WORK_TITLE": "WHERE I WORK",
+    "HOME_PROCESS_BUTTON": "check my portfolio",
+    "HOME_WORK_BUTTON": "my resume",
+    "HOME_PROCESS_RESEARCH_TITLE": "research, understand & empathize",
+    "HOME_PROCESS_RESEARCH_TEXT": "writing a few words to make it look like this is going to be the end. but the text can be smaller than that.",
+    "HOME_PROCESS_DEFINE_TITLE": "define, ideate & prototype",
+    "HOME_PROCESS_DEFINE_TEXT": "writing a few words to make it look like this is going to be the end. but the text can be smaller than that.",
+    "HOME_PROCESS_BUILD_TITLE": "build & deliver",
+    "HOME_PROCESS_BUILD_TEXT": "writing a few words to make it look like this is going to be the end. but the text can be smaller than that.",
+    "HOME_PROCESS_REFINE_TITLE": "refine",
+    "HOME_PROCESS_REFINE_TEXT": "writing a few words to make it look like this is going to be the end. but the text can be smaller than that.",
     "header_projects": "portfolio",
     "header_contact": "contact",
     "header_about": "about",
@@ -21,5 +34,8 @@
     "about_section_work": "work expirience",
     "about_section_certifications": "certifications",
     "project_section_project": "my projects",
-    "contact_section_contact": "contact"
+    "contact_section_contact": "contact",
+    "about_me_description_1": "Natural de Araraquara, mas já morei em São Carlos e Londres.  Atualmente vivo e trabalho em São Paulo.",
+    "about_me_description_2": "Sou formado em ciências da computação pela USP/São Carlos. Nos últimos anos trabalhei na PontoTel como desenvolvedor fullstack e recentemente comecei um processo de transicação para product management. Até o momento tem sido uma experiência muito boa e desafiadora.",
+    "about_me_description_3": "Amo viajar e me desafiar em viagens solo, conhecendo novos lugares e novas pessoas. Um dos meus passatempos preferidos é ir ao estádio acompanhar os jogos do Palmeiras."
 }

@@ -1,0 +1,49 @@
+.formki-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-style {
+    position: absolute;
+    width: 295px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid rgba(44, 62, 80, 0.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.form-input-text-field-style {
+    position: absolute;
+    width: 295px;
+    height: 176px;
+    background: #FFFFFF;
+    border: 1px solid rgba(44, 62, 80, 0.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form-button-style {
+    position: absolute;
+    width: 191px;
+    height: 52.59px;
+    
+    background: #2C3E50;
+}
+
+.form-line {
+    padding-top: 15%;
+}
+.form-button-text-style {
+    position: absolute;
+    width: 76.12px;
+    height: 34.6px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FBBC04;
+}

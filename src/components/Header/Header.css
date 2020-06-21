@@ -2,11 +2,10 @@
     width: 100%;
     top: 0;
     left: 0;
-    height: 56px;
+    height: 100px;
     background: white;
-    position: fixed;
+    position: absolute;
     z-index: 1000;
-    /* border-bottom: 1px solid rgba(44, 62, 80, 0.2); */
 }
 
 .header-navigation {
@@ -99,3 +98,9 @@
     background: #2C3E50 !important;
     color: #fbbc04 !important;
 }
+
+/* @media only screen and (max-width: 320px) { 
+    .header-container {
+        height: 32px;
+    }
+} */
