@@ -425,6 +425,130 @@
         justify-content: center;
         text-align: center;
     }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px) and (min-height: 689px){
+    .landing-image-and-social-media {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    /* Images */
+    .landing-personal-image {
+        position: absolute;
+        top: 180px;
+        left: 130px;
+        border-radius: 100%;
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    .landing-personal-image img {
+        width: 340px;
+        height: 340px; 
+        border-radius: 100%;
+    }
+
+    /* Social media icons */
+    
+    .landing-social-media {
+        position: absolute;
+        display: inline-flex;
+        left: 210px;
+        top: 490px;
+        margin-right: 10%;
+    }
+    
+    .landing-social-media-item {
+        margin-right: 20%;
+    }
+
+
+    .landing-text-description {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 4rem;
+    }
+    
+
+    /* Main Text - name */
+    .landing-main-text {
+        position: absolute;
+        left: 550px;
+        top: 170px;
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        text-align: left;
+        color: #2C3E50;
+    }
+
+    /* Sub Title - job */
+
+    .landing-sub-title {
+        position: absolute;
+        left: 630px;
+        top: 230px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 41px;
+
+        color: rgba(44, 62, 80, 0.5);
+    }
+
+    /* Split line */
+
+    .landing-split-line {
+        border: 1px solid rgba(44, 62, 80, 0.2);
+        position: absolute;
+        width: 480px;
+        height: 0px;
+        left: 510px;
+        top: 300px;
+    }
+
+    /* Sub Text - presentation */
+    
+    .landing-sub-text {
+        position: absolute;
+        width: 480px;
+        height: 153px;
+        left: 510px;
+        top: 310px;
+
+        font-family: Helvetica Neur;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+
+        color: rgba(44, 62, 80, 0.8);
+    }
+
+    .page-2-icons-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .page-2-title {
+        position: absolute;
+        width: 100%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        text-align: center;
+        color: #fbbc04;
+    }
     
 
 }
