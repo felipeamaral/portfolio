@@ -46,10 +46,19 @@
     text-align: center;
     background: #2C3E50;
     padding: 8px;
-    color: #FBBC04;
-    
+    color: #FBBC04;   
 }
 
+.home-social-media {
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+.home-social-item {
+    margin: 16px;
+}
 @media only screen and (max-width: 700px) {
     .home-text-container {
         width: 100%;
