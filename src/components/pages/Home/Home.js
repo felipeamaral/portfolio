@@ -3,29 +3,8 @@ import i18n from './../../../../i18n'
 import './Home.css';
 import IMAGE from './../../../assets/images/foto_5.png';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
-import {
-    useHistory,
-  } from "react-router-dom";
 
 const Home = props => {
-    const history = useHistory()
-
-    const goToAbout = () => {
-        history.push('/about')
-    }
-
-    const goToResume = () => {
-        history.push('/resume')
-    }
-
-    const goToPortfolio = () => {
-        history.push('/projects')
-    }
-
-    const goToTop = () => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth' })
-    }
-
     return (
         <div className="home-container">
             <div className="home-image-container">

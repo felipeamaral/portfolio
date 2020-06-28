@@ -1,7 +1,6 @@
 .about-container {
     position: relative;
     height: 689px;
-
     background: #FFFFFF;
 }
 
@@ -85,4 +84,16 @@
     height: 220px;
     left: 731px;
     top: 350px;
+}
+
+@media only screen and (min-width: 1800px) and (min-height: 969px) {
+    .about-container {
+        position: relative;
+        height: 969px;
+        background: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1800px) and (min-height: 969px) { 
+
 }

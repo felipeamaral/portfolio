@@ -36,12 +36,13 @@
 
 .resume-content-container {
     position: absolute;
+    height: 100%;
 }
 
 .resume-bg-yellow {
     position: absolute;
     width: 394px;
-    height: 310px;
+    height: 50%;
     left: 527px;
     top: 0px;
     
@@ -51,9 +52,9 @@
 .resume-bg-blue {
     position: absolute;
     width: 394px;
-    height: 379px;
+    height: 50%;
     left: 527px;
-    top: 310px;
+    top: 345px;
     
     background: #2C3E50;
 }
@@ -147,4 +148,17 @@
     height: 207.83px;
     left: 32px;
     top: 220px;
+}
+
+@media only screen and (min-width: 1800px) and (min-height: 969px) {
+    .resume-container {
+        position: relative;
+        height: 969px;
+    
+        background: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1800px) and (min-height: 969px) { 
+
 }
