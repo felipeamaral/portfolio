@@ -1,1230 +1,135 @@
-.container {
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 100px;
-
-    background: #ffffff;
-}
-
-.landing-image-container {
+.home-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
+    flex-wrap: wrap;
+
+    height: 100vh;
+    background: #FFFFFF;
+    
 }
 
-.landing-personal-image {
-    position: absolute;
-    top: 30px;
-}
-
-.landing-personal-image img {
-    width: 317px;
-    height: 334px;
-    border-radius: 50%;
-}
-
-.landing-text-description {
+.home-text-container {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    flex-direction: column;
 }
 
-.landing-main-text {
-    position: absolute;
-    height: 43px;
-    top: 367px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
+.home-name-text {
+    width: 680px;
+
+    align-items: center;
+    align-content: center;
+    
     font-size: 64px;
     line-height: 74px;
+    padding: 8px;
 
-    color: #2C3E50;
-}
-
-.landing-sub-title {
-    position: absolute;
-    height: 30px;
-    top: 440px;
-    
+    text-align: center;
     font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    
-    color: #2C3E50; 
-    opacity: 80%;
-}
-
-.landing-social-media {
-    display: flex;     
-    position: absolute;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 104px;
-    height: 24px;
-    top: 500px;
-}
-
-.container-with-color-yellow-1 {
-    position: absolute;
-    width: 100%;
-    top: 550px;
-    height: 500px;
+    font-weight: bold;
     
     background: #FBBC04;
-}
-
-.landing-sub-text {
-    position: absolute;
-    width: 70%;
-    /* width: 1024px; */
-    height: 162px;
-    top: 630px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-
     color: #2C3E50;
 }
 
-.about-me-container {
+.home-description-text {
+    width: 680px;
+    height: 175px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    background: #2C3E50;
+    padding: 8px;
+    color: #FBBC04;   
+}
+
+.home-social-media {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.about-me-title {
-    position: absolute;
-    width: 249px;
-    height: 65px;
-    top: 930px;
-
-    margin-top: 10px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 65px;
-    text-align: center;
-    
-    color: #2C3E50;
-}
-
-.about-me-text {
-    position: absolute;
-    /* width: 877px; */
-    width: 50%;
-    height: 101px;
-    left: 32px;
-    top: 1050px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 38px;
-
-    text-align: left;
-
-    color: #2C3E50;
-}
-
-.about-me-social-media {
-    display: flex;     
-    position: absolute;
     flex-direction: row;
-    justify-content: space-around;
-    width: 104px;
-    height: 24px;
-    top: 1680px;
-}
-
-.container-with-color-blue-1 {
-    position: absolute;
-    width: 100%;
-
-    height: 247px;
-    left: 0px;
-    top: 1800px;
-
-
-    background: #2C3E50;
-}
-
-.resume-container {
-    display: flex;
+    padding-top: 16px;
     justify-content: center;
-    text-align: center;
-    align-items: center;
 }
 
-.resume-title {
-    position: absolute;
-    width: 207px;
-    height: 65px;
-    top: 1960px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 65px;
-    text-align: center;
-
-    color: #FBBC04;
+.home-social-item {
+    margin: 16px;
 }
+@media only screen and (max-width: 700px) {
+    .home-text-container {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 
-.resume-work-title {
-    position: absolute;
-    width: 100%;
-    height: 25px;
-    top: 2060px;
+    .home-name-text {
+        width: 90%;
     
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 25px;
+        font-size: 36px;
+        line-height: 52px;
+
+    }
     
-    color: #2C3E50;
-    
-}
+    .home-description-text {
+        width: 90%;
+        height: 130px;
 
-.resume-work-container {
-    position: absolute;
-    /* left: 34px; */
-    top: 2110px;
-}
-
-
-.resume-education-title {
-    position: absolute;
-    width: 100%;
-    height: 25px;
-    top: 2380px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 25px;
-    /* ident ical to box height */
-
-    color: #2C3E50;
-}
-
-.resume-education-container {
-    position: absolute;
-    /* left: 34px; */
-    top: 2450px;
-}
-
-
-.container-with-color-yellow-2 {
-    position: absolute;
-    width: 100%;
-    height: 200px;
-    left: 0px;
-    top: 2850px;
-    background: #FBBC04;
-}
-
-
-.portfolio-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.portfolio-title {
-    position: absolute;
-    width: 193px;
-    height: 65px;
-    top: 2950px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 65px;
-    text-align: center;
-    
-    color: #2C3E50;
-}
-
-
-.container-with-color-blue-2 {
-    position: absolute;
-    width: 100%;
-
-    height: 200px;
-    left: 0px;
-    top: 3850px;
-
-    background: #2C3E50;
-}
-
-
-.contact-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.contact-title { 
-    position: absolute;
-    width: 179px;
-    height: 65px;
-    top: 3950px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 65px;
-    text-align: center;
-
-    color: #FBBC04;
-}
-
-.contact-form {
-    position: absolute;
-    top: 4500px;
-
-}
-
-.back-to-top {
-    cursor: pointer;
-    position: absolute;
-    width: 157px;
-    height: 25px;
-    top: 4850px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #2C3E50;
-    padding-bottom: 50px;  
-}
-
-
-
-@media only screen and (min-width: 414px) and (max-width: 1024px) {
-    .about-me-text {
-        position: absolute;
-        /* width: 877px; */
-        width: 50%;
-        height: 101px;
-        left: 32px;
-        top: 1050px;
-    
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
+        font-size: 24px;
         line-height: 32px;
-    
-        text-align: left;
-    
-        color: #2C3E50;
-    }
-
-}
-
-@media only screen and (min-width: 376px) and (max-width: 414px) { 
-    
-    .landing-image-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .landing-personal-image {
-        position: absolute;
-        top: 30px;
-    }
-
-    .landing-personal-image img {
-        width: 216px;
-        height: 228px;
-        border-radius: 50%;
-    }
-
-    .landing-text-description {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .landing-main-text {
-        position: absolute;
-        height: 43px;
-        top: 277px;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 49px;
-
-        color: #2C3E50;
-    }
-
-    .landing-sub-title {
-        position: absolute;
-        width: 205px;
-        height: 30px;
-        top: 330px;
         
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 33px;
-        
-        color: #2C3E50; 
-    }
-
-    .landing-social-media {
-        display: flex;     
-        position: absolute;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 104px;
-        height: 24px;
-        top: 372px;
-    }
-
-    .container-with-color-yellow-1 {
-        position: absolute;
-        height: 384px;
-        left: 0px;
-        top: 423px;
-    }
-
-    .landing-sub-text {
-        position: absolute;
-        width: 375px;
-        height: 162px;
-        top: 464px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 33px;
-        text-align: right;
-
-        color: #2C3E50;
-    }
-
-    .about-me-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .about-me-title {
-        position: absolute;
-        width: 249px;
-        height: 65px;
-        top: 740px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-        
-        color: #2C3E50;
-    }
-
-    .about-me-text {
-        position: absolute;
-        width: 311px;
-        height: 101px;
-        top: 807px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 25px;
-
-        text-align: left;
-
-        color: #2C3E50;
-    }
-
-    .about-me-social-media {
-        display: flex;     
-        position: absolute;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 104px;
-        height: 24px;
-        top: 1357px;
-    }
-
-    .container-with-color-blue-1 {
-        position: absolute;
-        height: 256px;
-        left: 0px;
-        top: 1480px;
-    }
-
-    .resume-title {
-        position: absolute;
-        width: 207px;
-        height: 65px;
-        top: 1639px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-
-        color: #FBBC04;
-    }
-
-    .resume-work-title {
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        top: 1744px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        
-        color: #2C3E50;
-        
-    }
-
-    .resume-work-container {
-        position: absolute;
-        left: 34px;
-        top: 1779px;
-    }
-
-
-    .resume-education-title {
-        position: absolute;
-        width: 186px;
-        height: 25px;
-        top: 1951px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        /* identical to box height */
-
-        color: #2C3E50;
-    }
-
-    .resume-education-container {
-        position: absolute;
-        left: 34px;
-        top: 1985px;
-    }
-
-    .container-with-color-yellow-2 {
-        position: absolute;
-        height: 256px;
-        left: 0px;
-        top: 2272px;
-    }
-
-    .portfolio-title {
-        position: absolute;
-        width: 193px;
-        height: 65px;
-        top: 2431px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-        
-        color: #2C3E50;
-    }
-
-    .container-with-color-blue-2 {
-        position: absolute;
-        height: 256px;
-        left: 0px;
-        top: 3059px;        
-    }
-
-    .contact-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .contact-title { 
-        position: absolute;
-        width: 179px;
-        height: 65px;
-        top: 3218px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-
-        color: #FBBC04;
-    }
-
-    .back-to-top {
-        cursor: pointer;
-        position: absolute;
-        width: 157px;
-        height: 25px;
-        top: 3923px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        /* identical to box height */
-
-        text-align: center;
-
-        color: #2C3E50;  
-        margin-bottom: 10%;
     }
 }
 
-
-@media only screen and (min-width: 321px) and (max-width: 375px) { 
-    .landing-page {
-        position: absolute;
-        width: 375px;
-        height: 433px;
-        left: 0px;
-        top: 100px;
-
-        background: #ffffff;
+@media only screen and (max-width: 480px) {
+    .home-text-container {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
-    .landing-image-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+    .home-name-text {
+        width: 90%;
+    
+        font-size: 32px;
+        line-height: 46px;
+
     }
+    
+    .home-description-text {
+        width: 90%;
+        height: 130px;
 
-    .landing-personal-image {
-        position: absolute;
-        top: 30px;
-    }
-
-    .landing-personal-image img {
-        width: 216px;
-        height: 228px;
-        border-radius: 50%;
-    }
-
-    .landing-text-description {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .landing-main-text {
-        position: absolute;
-        height: 43px;
-        top: 277px;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 49px;
-
-        color: #2C3E50;
-    }
-
-    .landing-sub-title {
-        position: absolute;
-        width: 205px;
-        height: 30px;
-        top: 330px;
+        font-size: 20px;
+        line-height: 26px;
         
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 33px;
-        
-        color: #2C3E50; 
-    }
-
-    .landing-social-media {
-        display: flex;     
-        position: absolute;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 104px;
-        height: 24px;
-        top: 372px;
-    }
-
-    .container-with-color-yellow-1 {
-        position: absolute;
-        width: 375px;
-        height: 384px;
-        left: 0px;
-        top: 423px;
-
-        background: #FBBC04;
-    }
-
-    .landing-sub-text {
-        position: absolute;
-        width: 311px;
-        height: 162px;
-        top: 464px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 33px;
-        text-align: right;
-
-        color: #2C3E50;
-    }
-
-    .about-me-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .about-me-title {
-        position: absolute;
-        width: 249px;
-        height: 65px;
-        top: 740px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-        
-        color: #2C3E50;
-    }
-
-    .about-me-text {
-        position: absolute;
-        width: 311px;
-        height: 101px;
-        top: 807px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 25px;
-
-        text-align: left;
-
-        color: #2C3E50;
-    }
-
-    .about-me-social-media {
-        display: flex;     
-        position: absolute;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 104px;
-        height: 24px;
-        top: 1357px;
-    }
-
-    .container-with-color-blue-1 {
-        position: absolute;
-        width: 375px;
-        height: 256px;
-        left: 0px;
-        top: 1480px;
-        
-        background: #2C3E50;
-    }
-
-    .resume-title {
-        position: absolute;
-        width: 207px;
-        height: 65px;
-        top: 1639px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-
-        color: #FBBC04;
-    }
-
-    .resume-work-title {
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        top: 1744px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        
-        color: #2C3E50;
-        
-    }
-
-    .resume-work-container {
-        position: absolute;
-        top: 1779px;
-    }
-
-
-    .resume-education-title {
-        position: absolute;
-        width: 186px;
-        height: 25px;
-        top: 1951px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        /* identical to box height */
-
-        color: #2C3E50;
-    }
-
-    .resume-education-container {
-        position: absolute;
-        top: 1985px;
-    }
-
-    .container-with-color-yellow-2 {
-        position: absolute;
-        width: 375px;
-        height: 256px;
-        left: 0px;
-        top: 2272px;
-        
-        background: #FBBC04;
-    }
-
-    .portfolio-title {
-        position: absolute;
-        width: 193px;
-        height: 65px;
-        top: 2431px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-        
-        color: #2C3E50;
-    }
-
-    .container-with-color-blue-2 {
-        position: absolute;
-        width: 375px;
-        height: 256px;
-        left: 0px;
-        top: 3059px;
-        
-        background: #2C3E50;
-    }
-
-    .contact-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .contact-title { 
-        position: absolute;
-        width: 179px;
-        height: 65px;
-        top: 3218px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-
-        color: #FBBC04;
-    }
-
-    .back-to-top {
-        cursor: pointer;
-        position: absolute;
-        width: 157px;
-        height: 25px;
-        top: 3923px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        /* identical to box height */
-
-        text-align: center;
-
-        color: #2C3E50;  
-        margin-bottom: 10%;
     }
 }
 
-@media only screen and (max-width: 320px) { 
-    .landing-page {
-        position: absolute;
-        width: 375px;
-        height: 433px;
-        left: 0px;
-        top: 100px;
-
-        background: #ffffff;
+@media only screen and (max-width: 330px) {
+    .home-text-container {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
-    .landing-image-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+    .home-name-text {
+        width: 90%;
+    
+        font-size: 26px;
+        line-height: 32px;
+
     }
+    
+    .home-description-text {
+        width: 90%;
+        height: 130px;
 
-    .landing-personal-image {
-        position: absolute;
-        top: 30px;
-    }
-
-    .landing-personal-image img {
-        width: 216px;
-        height: 228px;
-        border-radius: 50%;
-    }
-
-    .landing-text-description {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .landing-main-text {
-        position: absolute;
-        height: 43px;
-        top: 277px;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 49px;
-
-        color: #2C3E50;
-    }
-
-    .landing-sub-title {
-        position: absolute;
-        width: 205px;
-        height: 30px;
-        top: 330px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 33px;
-        
-        color: #2C3E50; 
-    }
-
-    .landing-social-media {
-        display: flex;     
-        position: absolute;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 104px;
-        height: 24px;
-        top: 372px;
-    }
-
-    .container-with-color-yellow-1 {
-        position: absolute;
-        width: 375px;
-        height: 384px;
-        left: 0px;
-        top: 423px;
-
-        background: #FBBC04;
-    }
-
-    .landing-sub-text {
-        position: absolute;
-        width: 311px;
-        height: 162px;
-        top: 464px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 33px;
-        text-align: right;
-
-        color: #2C3E50;
-    }
-
-    .about-me-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .about-me-title {
-        position: absolute;
-        width: 249px;
-        height: 65px;
-        top: 740px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-        
-        color: #2C3E50;
-    }
-
-    .about-me-text {
-        position: absolute;
-        width: 311px;
-        height: 101px;
-        top: 807px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
         font-size: 18px;
-        line-height: 25px;
-
-        text-align: left;
-
-        color: #2C3E50;
-    }
-
-    .about-me-social-media {
-        display: flex;     
-        position: absolute;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 104px;
-        height: 24px;
-        top: 1357px;
-    }
-
-    .container-with-color-blue-1 {
-        position: absolute;
-        width: 375px;
-        height: 256px;
-        left: 0px;
-        top: 1480px;
+        line-height: 24px;
         
-        background: #2C3E50;
-    }
-
-    .resume-title {
-        position: absolute;
-        width: 207px;
-        height: 65px;
-        top: 1639px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-
-        color: #FBBC04;
-    }
-
-    .resume-work-title {
-        position: absolute;
-        width: 208px;
-        height: 25px;
-        top: 1744px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        
-        color: #2C3E50;
-        
-    }
-
-    .resume-work-container {
-        position: absolute;
-        top: 1779px;
-    }
-
-
-    .resume-education-title {
-        position: absolute;
-        width: 186px;
-        height: 25px;
-        top: 1951px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        /* identical to box height */
-
-        color: #2C3E50;
-    }
-
-    .resume-education-container {
-        position: absolute;
-        top: 1985px;
-    }
-
-    .container-with-color-yellow-2 {
-        position: absolute;
-        width: 375px;
-        height: 256px;
-        left: 0px;
-        top: 2272px;
-        
-        background: #FBBC04;
-    }
-
-    .portfolio-title {
-        position: absolute;
-        width: 193px;
-        height: 65px;
-        top: 2431px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-        
-        color: #2C3E50;
-    }
-
-    .container-with-color-blue-2 {
-        position: absolute;
-        width: 375px;
-        height: 256px;
-        left: 0px;
-        top: 3059px;
-        
-        background: #2C3E50;
-    }
-
-    .contact-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .contact-title { 
-        position: absolute;
-        width: 179px;
-        height: 65px;
-        top: 3218px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        text-align: center;
-
-        color: #FBBC04;
-    }
-
-    .back-to-top {
-        cursor: pointer;
-        position: absolute;
-        width: 157px;
-        height: 25px;
-        top: 3923px;
-
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-        /* identical to box height */
-
-        text-align: center;
-
-        color: #2C3E50;  
-        margin-bottom: 10%;
     }
 }

@@ -60,7 +60,7 @@
 }
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 700px) {
     .header-navigation-title {
         margin-left: 1rem;
     
@@ -87,20 +87,7 @@
     }
 }
 
-@media only screen and (min-width: 641px) { 
-    .header-navigation-title {
-        margin-left: 0;
-    }
-
-}
-
 .navigation-active { 
     background: #2C3E50 !important;
     color: #fbbc04 !important;
 }
-
-/* @media only screen and (max-width: 320px) { 
-    .header-container {
-        height: 32px;
-    }
-} */

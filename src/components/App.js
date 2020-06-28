@@ -2,8 +2,12 @@ import React, { Component } from 'react'
 import './App.css';
 import Header from './Header/Header.js'
 import SideDrawer from './SideDrawer/SideDrawer.js'
-import Footer from './Footer/Footer'
 import Backdrop from './Backdrop/Backdrop.js'
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Projects from './pages/Projects/Projects'
+import Resume from './pages/Resume/Resume'
+import Contact from './pages/Contact/Contact'
 
 export default class App extends Component {
 
@@ -38,8 +42,14 @@ export default class App extends Component {
             <div>
                 <Header drawerClickHandler={() => this.drawerToggleClickHandler()} />
                 {backdrop}
+                <div className='app-container'>
+                    <Home />
+                    <About />
+                    {/* <Projects /> */}
+                    {/* <Resume /> */}
+                    {/* <Contact /> */}
+                </div>
                 <SideDrawer show={this.state.sideDrawerOpen} click={() => this.insideDrawerClickHandler()} />
-                {/* <Footer /> */}
             </div>
         )
     }

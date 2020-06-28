@@ -1,45 +1,174 @@
-.page-section-container {
+.resume-container {
+    position: relative;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.resume-title-container {
+    display: flex;
+    margin-left: 32px;
+}
+
+.resume-title-bg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 389px;
+    height: 100px;
+    left: 32px;
+    top: 32px;
+    
+    background: #FBBC04;
+}
+
+.resume-title-text {
+    position: absolute;
+    width: 332px;
+    height: 88px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    
+    text-align: center;
+    
+    color: #2C3E50;
+
+}
+
+
+.resume-content-container {
+    position: absolute;
+    height: 100%;
+    display: flex;
+}
+
+
+.education-skill-container {
+    position: relative;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 100px;
 }
 
-.page-section {
-    margin-left: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.page-section-title {
-    padding-bottom: 5rem;
-    text-align: center;
-}
-
-.page-section-title h3{
+.resume-education {
     position: absolute;
-    font-family: 'Open Sans';
+    left: 527px;
+    width: 320px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    background: #FBBC04;
+}
+
+.education-container {
+    position: absolute;
+    width: 366px;
+    height: 97.29px;
+    top: 92.62px;
+    left: 16px;
+}
+
+.education-title {
+    position: absolute;
+    width: 291.63px;
+    height: 29.73px;
+    top: 32px;
+    
+    font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    text-align: center;
-    color: #fbbc04;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #2C3E50;
+}
+
+.work-title {
+    position: absolute;
+    width: 412px;
+    height: 44.43px;
+    left: 32px;
+    top: 164px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #2C3E50;
+    
+}
+
+.resume-skills{
+    position: absolute;
+    width: 320px;
+    height: 50%;
+    left: 527px;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    
     background: #2C3E50;
 }
 
-.page-section-text {
 
+.skills-title {
+    position: absolute;
+    width: 291.63px;
+    height: 29.73px;
+    top: 32px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #FBBC04;
+    
 }
 
-.page-section-text p {
+.skills-container {
     position: absolute;
-    width: 1000px;
-    font-family: 'Open Sans';
+    width: 366px;
+    height: 97.29px;
+    top: 92.62px;
+    left: 16px;
+
+    color: #FBBC04;
+}
+
+.certification-title {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 1030px;
+    top: 32px;
+    
+    font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 37px;
-    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
     color: #2C3E50;
+    
+}
+
+.certification-container {
+    position: absolute;
+    left: 959px;
+    top: 76px;
+}
+
+.work-container {
+    position: absolute;
+    width: 409.43px;
+    height: 207.83px;
+    left: 32px;
+    top: 220px;
 }

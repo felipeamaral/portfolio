@@ -1,45 +1,59 @@
-.page-section-container {
+.portfolio-container {
+    position: relative;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.portfolio-title-container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 100px;
+    justify-content: center;
 }
 
-.page-section {
-    margin-left: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.page-section-title {
-    padding-bottom: 5rem;
-    text-align: center;
-}
-
-.page-section-title h3{
+.portfolio-title-bg {
+    display: flex;
+    justify-content: center;
     position: absolute;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    text-align: center;
-    color: #fbbc04;
+    width: 389px;
+    height: 100px;
+    top: 32px;
+
     background: #2C3E50;
 }
 
-.page-section-text {
+.portfolio-title-text {
+    position: absolute;
+    width: 332px;
+    height: 88px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FBBC04;
 
 }
 
-.page-section-text p {
-    position: absolute;
-    width: 1000px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 37px;
-    text-align: left;
-    color: #2C3E50;
+.portfolio-content-container {
+    position: relative;
+    top: 221px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1281px) and (min-height: 969px) { 
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .portfolio-content-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
