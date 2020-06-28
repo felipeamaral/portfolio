@@ -9,18 +9,21 @@ const About = props => {
 
     return (
         <div id="about" className="about-container">
-            <div className="about-title-bg"/>   
-            <div className="about-title-text">
+            <div className="about-title-section">
                 <span>{i18n.t("about_section_about")}</span>
-            </div>  
-            <div className="about-text-container">
-                <p>{i18n.t("about_me_description_1")}</p>
-                <p>{i18n.t("about_me_description_2")}</p>
-                <p>{i18n.t("about_me_description_3")}</p>
             </div>
-            <img className="about-image-1" src={IMAGE_2}/>
-            <img className="about-image-2" src={IMAGE_1}/>
-            <img className="about-image-3" src={IMAGE_3}/>
+            <div className="about-content-container">
+                <div className="about-text-container">
+                    <p>{i18n.t("about_me_description_1")}</p>
+                    <p>{i18n.t("about_me_description_2")}</p>
+                    <p>{i18n.t("about_me_description_3")}</p>
+                </div>
+                <div className="about-images-container">
+                    <img className="about-image-1" src={IMAGE_2}/>
+                    <img className="about-image-2" src={IMAGE_1}/>
+                    <img className="about-image-3" src={IMAGE_3}/>
+                </div>
+            </div>            
         </div>
     )
 }

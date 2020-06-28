@@ -1,10 +1,17 @@
 .resume-container {
     position: relative;
-    height: 689px;
+    height: 100vh;
     background: #FFFFFF;
 }
 
+.resume-title-container {
+    display: flex;
+    margin-left: 32px;
+}
+
 .resume-title-bg {
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 389px;
     height: 100px;
@@ -18,15 +25,12 @@
     position: absolute;
     width: 332px;
     height: 88px;
-    left: 57px;
-    top: 35px;
     
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
     line-height: 87px;
-    /* identical to box height */
     
     text-align: center;
     
@@ -34,36 +38,42 @@
 
 }
 
+
 .resume-content-container {
     position: absolute;
     height: 100%;
+    display: flex;
 }
 
-.resume-bg-yellow {
+
+.education-skill-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-education {
     position: absolute;
-    width: 394px;
-    height: 50%;
     left: 527px;
-    top: 0px;
-    
+    width: 320px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
     background: #FBBC04;
 }
 
-.resume-bg-blue {
+.education-container {
     position: absolute;
-    width: 394px;
-    height: 50%;
-    left: 527px;
-    top: 345px;
-    
-    background: #2C3E50;
+    width: 366px;
+    height: 97.29px;
+    top: 92.62px;
+    left: 16px;
 }
 
 .education-title {
     position: absolute;
     width: 291.63px;
     height: 29.73px;
-    left: 547px;
     top: 32px;
     
     font-family: Open Sans;
@@ -92,12 +102,25 @@
     
 }
 
+.resume-skills{
+    position: absolute;
+    width: 320px;
+    height: 50%;
+    left: 527px;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    
+    background: #2C3E50;
+}
+
+
 .skills-title {
     position: absolute;
-    width: 306.25px;
-    height: 27.92px;
-    left: 550px;
-    top: 342px;
+    width: 291.63px;
+    height: 29.73px;
+    top: 32px;
     
     font-family: Open Sans;
     font-style: normal;
@@ -107,6 +130,16 @@
     
     color: #FBBC04;
     
+}
+
+.skills-container {
+    position: absolute;
+    width: 366px;
+    height: 97.29px;
+    top: 92.62px;
+    left: 16px;
+
+    color: #FBBC04;
 }
 
 .certification-title {
@@ -132,33 +165,10 @@
     top: 76px;
 }
 
-
-.education-container {
-    position: absolute;
-    width: 366px;
-    height: 97.29px;
-    left: 547px;
-    top: 92.62px;
-
-}
-
 .work-container {
     position: absolute;
     width: 409.43px;
     height: 207.83px;
     left: 32px;
     top: 220px;
-}
-
-@media only screen and (min-width: 1800px) and (min-height: 969px) {
-    .resume-container {
-        position: relative;
-        height: 969px;
-    
-        background: #FFFFFF;
-    }
-}
-
-@media only screen and (min-width: 1281px) and (max-width: 1800px) and (min-height: 969px) { 
-
 }

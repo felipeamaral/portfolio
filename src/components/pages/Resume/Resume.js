@@ -10,32 +10,14 @@ const Resume = props => {
 
     return (
         <div id="resume" className="resume-container">
-            <div className="resume-title-bg"/>   
-            <div className="resume-title-text">
-                <span>{i18n.t("resume_section_resume")}</span>
-            </div>  
-            
-            <div className="resume-content-container">
-                <div className="resume-bg-yellow"/>
-                <div className="resume-bg-blue"/>
-
-                <div className="resume-education">
-                    <span className="education-title">formação academica</span>
-                    <div className="education-container">
-                        <EducationCard 
-                            course="Bel em ciências da computação" 
-                            school="ICMC-USP/São Carlos" 
-                            period="2010-2015" 
-                        />
-                        
-                        <EducationCard 
-                            course="CSF - Bsc Computer Science" 
-                            school="Queen Mary, University of London" 
-                            period="2013-2014" 
-                        />
-
-                    </div>
+            <div className="resume-title-container">
+                <div className="resume-title-bg">   
+                    <div className="resume-title-text">
+                        <span>{i18n.t("resume_section_resume")}</span>
+                    </div>  
                 </div>
+            </div>
+            <div className="resume-content-container">
                 <div className="resume-work">
                     <span className="work-title">experiência profissional</span>
                     <div className="work-container">
@@ -57,8 +39,29 @@ const Resume = props => {
                     
                     </div>
                 </div>
-                <div className="resume-skills">
-                    <span className="skills-title">habilidades</span>
+                <div className='education-skill-container'>
+                    <div className="resume-education">
+                        <span className="education-title">formação academica</span>
+                        <div className="education-container">
+                            <EducationCard 
+                                course="Bel em ciências da computação" 
+                                school="ICMC-USP/São Carlos" 
+                                period="2010-2015" 
+                            />
+                            
+                            <EducationCard 
+                                course="CSF - Bsc Computer Science" 
+                                school="Queen Mary, University of London" 
+                                period="2013-2014" 
+                            />
+                        </div>  
+                    </div>
+                    <div className="resume-skills">
+                        <span className="skills-title">habilidades</span>
+                        <div className="skills-container">
+                            <span>oie</span>
+                        </div>
+                    </div>
                 </div>
                 <div className="resume-certification">
                     <span className="certification-title">certificados</span>

@@ -4,11 +4,15 @@
     background: #FFFFFF;
 }
 
+.contact-title-container {
+    display: flex;
+    justify-content: center;
+}
+
 .contact-title-bg {
     position: absolute;
     width: 389px;
     height: 100px;
-    left: 446px;
     top: 32px;
     
     background: #2C3E50;
@@ -18,7 +22,6 @@
     position: absolute;
     width: 332px;
     height: 88px;
-    left: 471px;
     top: 35px;
     
     font-family: Open Sans;
@@ -26,7 +29,6 @@
     font-weight: 600;
     font-size: 64px;
     line-height: 87px;
-    /* identical to box height */
     
     text-align: center;
     
@@ -35,23 +37,22 @@
 }
 
 .contact-content-container {
-    position: absolute;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-thx-text {
     position: absolute;
     width: 483px;
     height: 47px;
-    left: 399px;
     top: 170px;
     
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
-    line-height: 120.3%;
-    /* or 38px */
-    
+    line-height: 38px;    
     
     color: #2C3E50;
     
@@ -62,7 +63,6 @@
     position: absolute;
     width: 708px;
     height: 52px;
-    left: 286px;
     top: 233px;
     
     font-family: Open Sans;
@@ -81,8 +81,8 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    left: 404px;
-    top: 300px;
+    
+    top: 280px;
 }
 
 
@@ -108,19 +108,18 @@
 }
 
 .back-to-top {
-    cursor: pointer;
     position: absolute;
-    width: 184px;
+    cursor: pointer;
+    width: 200px;
     height: 25px;
-    left: 1062px;
-    top: 652px;
-
+    right: 32px;
+    bottom: 16px;
+    position: absolute;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height */
 
     text-align: center;
 
@@ -128,15 +127,56 @@
 
 }
 
-@media only screen and (min-width: 1800px) and (min-height: 969px) {
+
+@media only screen and (min-width: 1281px) and (min-height: 969px) { 
     .contact-container {
         position: relative;
         height: 969px;
     
         background: #FFFFFF;
     }
-}
 
-@media only screen and (min-width: 1281px) and (max-width: 1800px) and (min-height: 969px) { 
+    .contact-thx-text {
+        position: absolute;
+        width: 483px;
+        height: 47px;
+        top: 230px;
+        
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 38px;    
+        
+        color: #2C3E50;
+        
+    
+    }
+    
+    .contact-social-text {
+        position: absolute;
+        width: 708px;
+        height: 52px;
+        top: 300px;
+        
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 120.3%;
+        /* or 34px */
+        
+        
+        color: #2C3E50;
+        
+    }
+    
+    .contact-social-media {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        
+        top: 400px;
+    }
 
 }

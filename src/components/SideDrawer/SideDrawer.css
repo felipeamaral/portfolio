@@ -45,7 +45,7 @@
     color: #fbbc04;
 }
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 701px) {
     .side-drawer {
         display: none;
     }

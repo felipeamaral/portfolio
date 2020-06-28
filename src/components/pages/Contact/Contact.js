@@ -6,21 +6,20 @@ import { SocialMediaIconsReact } from 'social-media-icons-react';
 const Contact = props => {
 
     const backToTop = () => {
-        console.log('oie')
         window.scrollTo({top: 0, behavior: 'smooth'});
     }
 
     return (
         <div id="contact" className="contact-container">
-            <div className="contact-title-bg"/>   
-            <div className="contact-title-text">
-                <span>{i18n.t("contact_section_contact")}</span>
-            </div>  
+            <div className="contact-title-container">
+                <div className="contact-title-bg"/>   
+                <div className="contact-title-text">
+                    <span>{i18n.t("contact_section_contact")}</span>
+                </div>  
+            </div>
             <div className="contact-content-container">
-                <div className="contact-text-container">
-                    <span className="contact-thx-text">{i18n.t("contact_thx_text")}</span>
-                    <span className="contact-social-text">{i18n.t("contact_social_media")}</span>
-                </div>
+                <span className="contact-thx-text">{i18n.t("contact_thx_text")}</span>
+                <span className="contact-social-text">{i18n.t("contact_social_media")}</span>
                 
                 <div className="contact-social-media">
                     <div className="contact-social-item">
@@ -40,10 +39,9 @@ const Contact = props => {
                         <span> @felipeaamaral </span>
                     </div>
                 </div>
-                <div className="back-to-top" onClick={backToTop}>
-                    <span>{i18n.t("back_to_top")}</span>
-                </div>
-                
+            </div>
+            <div className="back-to-top" onClick={backToTop}>
+                <span>{i18n.t("back_to_top")}</span>
             </div>
         </div>
     )

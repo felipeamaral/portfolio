@@ -1,72 +1,42 @@
 .home-container {
-    position: relative;
-    height: 689px;
-
-    background: #FFFFFF;
-}
-
-.home-image-container {
-    position: absolute;
-    left: 130px;
-    top: 123px;
-}
-
-.home-image-container img {
-    border-radius: 50%;
-    width: 317px;
-    height: 334px;
-}
-
-.home-social-media-container {
-    position: absolute;
     display: flex;
-    justify-content: space-between;
-    width: 266px;
-    height: 60px;
-    left: 151px;
-    top: 490px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 100vh;
+    background: #FFFFFF;
+    
 }
 
-.home-name-container {
-    position: absolute;
-    width: 701px;
-    height: 165px;
-    left: 547px;
-    top: 156px;
-
-    background: #FBBC04;
+.home-text-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .home-name-text {
-    position: absolute;
-    width: 600px;
-    left: 658px;
-    top: 201px;
+    width: 680px;
+
+    align-items: center;
+    align-content: center;
     
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
     font-size: 64px;
     line-height: 74px;
+    padding: 8px;
+
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
     
+    background: #FBBC04;
     color: #2C3E50;
 }
 
-.home-description-container{
-    position: absolute;
-    width: 701px;
-    height: 201px;
-    left: 547px;
-    top: 321px;
-    
-    background: #2C3E50;
-}
-
 .home-description-text {
-    position: absolute;
     width: 680px;
-    left: 556px;
-    top: 330px;
+    height: 175px;
     
     font-family: Open Sans;
     font-style: normal;
@@ -74,161 +44,83 @@
     font-size: 32px;
     line-height: 44px;
     text-align: center;
-    
+    background: #2C3E50;
+    padding: 8px;
     color: #FBBC04;
     
 }
 
-@media only screen and (min-width: 1800px) and (min-height: 969px) {
-    .home-container {
-        position: relative;
-        height: 969px;
-    
-        background: #FFFFFF;
+@media only screen and (max-width: 700px) {
+    .home-text-container {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
-    .home-image-container {
-        position: absolute;
-        left: 430px;
-        top: 223px;
-    }
-
-    .home-social-media-container {
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
-        width: 266px;
-        height: 60px;
-        left: 451px;
-        top: 590px;
-    }
-    
-    .home-name-container {
-        position: absolute;
-        width: 701px;
-        height: 165px;
-        left: 847px;
-        top: 256px;
-    
-        background: #FBBC04;
-    }
-    
     .home-name-text {
-        position: absolute;
-        width: 600px;
-        left: 958px;
-        top: 301px;
-        
-        font-family: Helvetica;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 64px;
-        line-height: 74px;
-        
-        color: #2C3E50;
-    }
+        width: 90%;
     
-    .home-description-container{
-        position: absolute;
-        width: 701px;
-        height: 201px;
-        left: 847px;
-        top: 421px;
-        
-        background: #2C3E50;
+        font-size: 36px;
+        line-height: 52px;
+
     }
     
     .home-description-text {
-        position: absolute;
-        width: 680px;
-        left: 856px;
-        top: 430px;
-        
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 44px;
-        text-align: center;
-        
-        color: #FBBC04;
+        width: 90%;
+        height: 130px;
+
+        font-size: 24px;
+        line-height: 32px;
         
     }
 }
 
-@media only screen and (min-width: 1281px) and (max-width: 1800px) and (min-height: 969px) { 
-    .home-container {
-        position: relative;
-        height: 969px;
-    
-        background: #FFFFFF;
+@media only screen and (max-width: 480px) {
+    .home-text-container {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
-    .home-image-container {
-        position: absolute;
-        left: 130px;
-        top: 223px;
-    }
-
-    .home-social-media-container {
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
-        width: 266px;
-        height: 60px;
-        left: 151px;
-        top: 590px;
-    }
-    
-    .home-name-container {
-        position: absolute;
-        width: 701px;
-        height: 165px;
-        left: 547px;
-        top: 256px;
-    
-        background: #FBBC04;
-    }
-    
     .home-name-text {
-        position: absolute;
-        width: 600px;
-        left: 658px;
-        top: 301px;
-        
-        font-family: Helvetica;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 64px;
-        line-height: 74px;
-        
-        color: #2C3E50;
-    }
+        width: 90%;
     
-    .home-description-container{
-        position: absolute;
-        width: 701px;
-        height: 201px;
-        left: 547px;
-        top: 421px;
-        
-        background: #2C3E50;
+        font-size: 32px;
+        line-height: 46px;
+
     }
     
     .home-description-text {
-        position: absolute;
-        width: 680px;
-        left: 556px;
-        top: 430px;
+        width: 90%;
+        height: 130px;
+
+        font-size: 20px;
+        line-height: 26px;
         
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 44px;
-        text-align: center;
-        
-        color: #FBBC04;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .home-text-container {
+        width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .home-name-text {
+        width: 90%;
+    
+        font-size: 26px;
+        line-height: 32px;
+
+    }
+    
+    .home-description-text {
+        width: 90%;
+        height: 130px;
+
+        font-size: 18px;
+        line-height: 24px;
         
     }
 }

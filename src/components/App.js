@@ -45,9 +45,9 @@ export default class App extends Component {
                 <div className='app-container'>
                     <Home />
                     <About />
-                    <Projects />
-                    <Resume />
-                    <Contact />
+                    {/* <Projects /> */}
+                    {/* <Resume /> */}
+                    {/* <Contact /> */}
                 </div>
                 <SideDrawer show={this.state.sideDrawerOpen} click={() => this.insideDrawerClickHandler()} />
             </div>

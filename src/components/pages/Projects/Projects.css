@@ -1,14 +1,20 @@
 .portfolio-container {
     position: relative;
-    height: 689px;
+    height: 100vh;
     background: #FFFFFF;
 }
 
+.portfolio-title-container {
+    display: flex;
+    justify-content: center;
+}
+
 .portfolio-title-bg {
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 389px;
     height: 100px;
-    left: 446px;
     top: 32px;
 
     background: #2C3E50;
@@ -18,8 +24,6 @@
     position: absolute;
     width: 332px;
     height: 88px;
-    left: 471px;
-    top: 35px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -41,15 +45,15 @@
     justify-content: center;
 }
 
-@media only screen and (min-width: 1800px) and (min-height: 969px) {
-    .portfolio-container {
-        position: relative;
-        height: 969px;
-    
-        background: #FFFFFF;
-    }
+@media only screen and (min-width: 1281px) and (min-height: 969px) { 
+
 }
 
-@media only screen and (min-width: 1281px) and (max-width: 1800px) and (min-height: 969px) { 
+@media only screen and (max-width: 1024px) {
 
+    .portfolio-content-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
