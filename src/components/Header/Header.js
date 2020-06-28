@@ -11,6 +11,7 @@ import {
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import Home from './../pages/Home/Home.js'
+import About from './../pages/About/About.js'
 
 const Header = props => (
     <HashRouter>
@@ -23,8 +24,8 @@ const Header = props => (
                 <div className="header-navigation-list">
                     <ul>
                         <li><AnchorLink href="#about">&nbsp;{i18n.t("header_about")}&nbsp;</AnchorLink></li>
-                        <li><AnchorLink href="#resume">&nbsp;{i18n.t("header_resume")}&nbsp;</AnchorLink></li>
                         <li><AnchorLink href="#portfolio">&nbsp;{i18n.t("header_projects")}&nbsp;</AnchorLink></li>
+                        <li><AnchorLink href="#resume">&nbsp;{i18n.t("header_resume")}&nbsp;</AnchorLink></li>
                         <li><AnchorLink href="#contact">&nbsp;{i18n.t("header_contact")}&nbsp;</AnchorLink></li>
                     </ul>
                 </div>
@@ -33,13 +34,13 @@ const Header = props => (
                 </div>
             </div>
         </header>
-    <div>
+    {/* <div>
         <Switch>
             <Route exact path="/" component={Home}/>
-            {/* <Route component={NotFound}/> */}
+            <Route component={NotFound}/>
         </Switch>
         
-    </div>
+    </div> */}
     </HashRouter>
 )
 

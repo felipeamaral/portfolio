@@ -1,19 +1,24 @@
 import React from 'react';
 import './Projects.css';
+import ProjectCard from './../../commons/ProjectCard/ProjectCard'
 import i18n from '../../../../i18n'
+import IMAGE from './../../../assets/images/portfolio-img.png';
 
 const Projects = props => {
 
     return (
-        <div className="page-section-container">
-            <div className="page-section">
-                <div className="page-section-title">
-                    <h3>&nbsp;{i18n.t("project_section_project")}&nbsp;&nbsp;</h3>
-                </div>
-                <div className="page-section-text">
-                    {/* <p>{i18n.t("ABOUT_PAGE_SECTION_ABOUT")}</p> */}
-                    <p>...</p>
-                </div>     
+        <div id="portfolio" className="portfolio-container">
+            <div className="portfolio-title-bg"/>   
+            <div className="portfolio-title-text">
+                <span>{i18n.t("project_section_project")}</span>
+            </div>
+            <div className="portfolio-content-container">
+                <ProjectCard 
+                    projectName="portfolio" 
+                    github="https://github.com/felipeamaral/portfolioaa" 
+                    internet="https://www.felipeaamaral.com/#/" 
+                    figma="https://www.figma.com/file/qtwQGroj3T37odjLZt1b22/portfolio-v2?node-id=0%3A1" 
+                    image={IMAGE} />
             </div>
         </div>
     )

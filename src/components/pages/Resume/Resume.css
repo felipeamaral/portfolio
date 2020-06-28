@@ -1,45 +1,150 @@
-.page-section-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 100px;
+.resume-container {
+    position: relative;
+    height: 689px;
+    background: #FFFFFF;
 }
 
-.page-section {
-    margin-left: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.page-section-title {
-    padding-bottom: 5rem;
-    text-align: center;
-}
-
-.page-section-title h3{
+.resume-title-bg {
     position: absolute;
-    font-family: 'Open Sans';
+    width: 389px;
+    height: 100px;
+    left: 32px;
+    top: 32px;
+    
+    background: #FBBC04;
+}
+
+.resume-title-text {
+    position: absolute;
+    width: 332px;
+    height: 88px;
+    left: 57px;
+    top: 35px;
+    
+    font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    /* identical to box height */
+    
     text-align: center;
-    color: #fbbc04;
+    
+    color: #2C3E50;
+
+}
+
+.resume-content-container {
+    position: absolute;
+}
+
+.resume-bg-yellow {
+    position: absolute;
+    width: 394px;
+    height: 310px;
+    left: 527px;
+    top: 0px;
+    
+    background: #FBBC04;
+}
+
+.resume-bg-blue {
+    position: absolute;
+    width: 394px;
+    height: 379px;
+    left: 527px;
+    top: 310px;
+    
     background: #2C3E50;
 }
 
-.page-section-text {
+.education-title {
+    position: absolute;
+    width: 291.63px;
+    height: 29.73px;
+    left: 547px;
+    top: 32px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #2C3E50;
+}
+
+.work-title {
+    position: absolute;
+    width: 412px;
+    height: 44.43px;
+    left: 32px;
+    top: 164px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #2C3E50;
+    
+}
+
+.skills-title {
+    position: absolute;
+    width: 306.25px;
+    height: 27.92px;
+    left: 550px;
+    top: 342px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #FBBC04;
+    
+}
+
+.certification-title {
+    position: absolute;
+    width: 181px;
+    height: 31px;
+    left: 1030px;
+    top: 32px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #2C3E50;
+    
+}
+
+.certification-container {
+    position: absolute;
+    left: 959px;
+    top: 76px;
+}
+
+
+.education-container {
+    position: absolute;
+    width: 366px;
+    height: 97.29px;
+    left: 547px;
+    top: 92.62px;
 
 }
 
-.page-section-text p {
+.work-container {
     position: absolute;
-    width: 1000px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 37px;
-    text-align: left;
-    color: #2C3E50;
+    width: 409.43px;
+    height: 207.83px;
+    left: 32px;
+    top: 220px;
 }

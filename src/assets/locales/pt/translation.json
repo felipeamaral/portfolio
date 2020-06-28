@@ -33,9 +33,13 @@
     "about_section_education": "formação",
     "about_section_work": "experiência profissional",
     "about_section_certifications": "certificações",
-    "project_section_project": "meus projetos",
-    "contact_section_contact": "contato",
+    "project_section_project": "projetos",
     "about_me_description_1": "Sou natural de Araraquara (SP), já morei em São Carlos e Londres mas atualmente vivo e trabalho em São Paulo.",
     "about_me_description_2": "Minha formação é em ciências da computação pela USP/São Carlos e nos últimos anos trabalhei na PontoTel como desenvolvedor fullstack. Recentemente comecei um processo de transicação para product management, onde tenho focado meu trabalho mais em produto e menos em desenvolvimento. Posso dizer que essa experiência está sendo bem interessante.",
-    "about_me_description_3": "Sempre que posso tento viajar para algum lugar que não conheço e, eventualmente, me desafiando em viagens solo. Um dos meus passatempos preferidos é ir ao estádio acompanhar os jogos do meu time de coração, o Palmeiras :)"
+    "about_me_description_3": "Sempre que posso tento viajar para algum lugar que não conheço e, eventualmente, me desafiando em viagens solo. Um dos meus passatempos preferidos é ir ao estádio acompanhar os jogos do meu time de coração, o Palmeiras :)",
+    "resume_section_resume": "curriculo",
+    "contact_section_contact": "contato",
+    "contact_thx_text": "Muito obrigado pela sua visita :)",
+    "contact_social_media": "Você pode me encontrar através das seguintes redes",
+    "back_to_top": "voltar para o inicio"
 }

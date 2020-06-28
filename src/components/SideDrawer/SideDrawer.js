@@ -24,8 +24,8 @@ const SideDrawer = props => {
             <nav className={drawerClasses}>
                 <ul>
                     <li onClick={props.click}><AnchorLink href="#about">&nbsp;{i18n.t("header_about")}&nbsp;</AnchorLink></li>
-                    <li onClick={props.click}><AnchorLink href="#resume">&nbsp;{i18n.t("header_resume")}&nbsp;</AnchorLink></li>
                     <li onClick={props.click}><AnchorLink href="#portfolio">&nbsp;{i18n.t("header_projects")}&nbsp;</AnchorLink></li>
+                    <li onClick={props.click}><AnchorLink href="#resume">&nbsp;{i18n.t("header_resume")}&nbsp;</AnchorLink></li>
                     <li onClick={props.click}><AnchorLink href="#contact">&nbsp;{i18n.t("header_contact")}&nbsp;</AnchorLink></li>
                 </ul>
             </nav>

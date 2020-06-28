@@ -1,45 +1,88 @@
-.page-section-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 100px;
+.about-container {
+    position: relative;
+    height: 689px;
+
+    background: #FFFFFF;
 }
 
-.page-section {
-    margin-left: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
 
-.page-section-title {
-    padding-bottom: 5rem;
-    text-align: center;
-}
-
-.page-section-title h3{
+.about-title-text {
+    
     position: absolute;
-    font-family: 'Open Sans';
+    width: 332px;
+    height: 88px;
+    left: 61px;
+    top: 38px;
+    
+    font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    /* identical to box height */
+    
     text-align: center;
-    color: #fbbc04;
-    background: #2C3E50;
-}
-
-.page-section-text {
-
-}
-
-.page-section-text p {
-    position: absolute;
-    width: 1000px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 37px;
-    text-align: left;
+    
     color: #2C3E50;
+    
+}
+
+.about-title-bg {
+    position: absolute;
+    width: 389px;
+    height: 100px;
+    left: 32px;
+    top: 32px;
+
+    background: #FBBC04;
+}
+
+.about-text-container {
+    position: absolute;
+    width: 677px;
+    height: 502px;
+    left: 32px;
+    top: 171px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120.3%;
+    /* or 29px */
+
+
+    color: #2C3E50;
+}
+
+/* .about-images-container {
+    position: absolute;
+    width: 486px;
+    height: 505px;
+    left: 731px;
+    top: 118px;
+} */
+
+.about-image-1 {
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    left: 850px;
+    top: 100px;
+}
+
+.about-image-2 {
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    left: 1000px;
+    top: 350px;
+}
+
+.about-image-3 {
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    left: 731px;
+    top: 350px;
 }
