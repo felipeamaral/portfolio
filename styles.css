@@ -261,7 +261,7 @@ nav {
 /* RESUME SECTION */
 
 .resumes {
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 .resume-grid {
@@ -274,6 +274,39 @@ nav {
 .resume-grid-item p {
     color: rgba(0,0,0,.7);
 }
+
+.resume-grid-item h1 {
+    background: linear-gradient(135deg, rgba(44,62,80,.9) 0%, rgba(72,56,149,0.8) 100%);
+    color: #fafafa;
+    padding: 1rem; 
+    text-transform: uppercase;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: .5rem 0 1rem;
+}
+
+.resume-grid-item h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.resume-education-item {
+    margin: 2rem 1rem;
+}
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.resume-button {
+    text-align: center;
+}
+
 
 
 /* ABOUT ME SECTION */
