@@ -359,15 +359,23 @@ nav {
 
 .about-grid {
     text-align: center;
+    align-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
     margin-bottom: 2rem;
 }
 
+.about-grid-item p {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: #fafafa;
+}
+
 .about-grid-item img {
-    width: 22rem;
-    height: 22rem;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
     border: 3px solid #eb648c;
     border-radius: 50%;
 }
@@ -461,22 +469,30 @@ footer{
 
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 450px) {
 
     .about-grid-item img {
         display: none;
     }
 }
 
-@media screen and (max-width: 580px) and (max-height: 750px) {
+@media screen and (max-width: 500px) {
     .about-grid-item img {
-        width: 7rem;
-        height: 7rem;
+        width: 15rem;
+        height: 15rem;
         border: 2px solid #eb648c;
         border-radius: 50%;
     }
 }
 
+@media screen and (max-width: 599px) {
+    .about-heading {
+        padding-top: 4rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        color: #fafafa;
+    }
+}
 @media screen and (min-width: 600px) {
     .about-heading {
         padding-top: 4rem;
@@ -558,14 +574,6 @@ footer{
         margin-bottom: 3rem;
         color: #fafafa;
     }
-
-    .about-grid-item img {
-        width: 25rem;
-        height: 25rem;
-        border: 3px solid #eb648c;
-        border-radius: 50%;
-    }
-    
 }
 
 @media screen and (min-width: 950px) { 
