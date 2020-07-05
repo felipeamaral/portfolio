@@ -11,3 +11,7 @@ selectElement('.close').addEventListener('click', () => {
     selectElement('.nav-list').classList.remove('active')
 });
 
+//close the menu on click
+selectElement('.nav-list').addEventListener('click', () => {
+    selectElement('.nav-list').classList.remove('active')
+});
