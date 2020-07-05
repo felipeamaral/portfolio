@@ -123,7 +123,6 @@ nav {
 .hero{
     width: 100%;
     height: 80vh;
-    /* background: linear-gradient(135deg, rgba(44,62,80,.9) 0%, rgba(72,56,149,0.8) 100%), url("images/header-bg.png")  center no-repeat; */
     background: linear-gradient(135deg, rgba(44,62,80,.9) 0%, rgba(72,56,149,0.8) 100%);
     background-size: cover;
     position: relative;
@@ -171,22 +170,17 @@ nav {
     padding: 1rem 2.5rem;
     text-transform: uppercase;
     transition: background-color 650ms;
+    font-size: 1.2rem;
 }
 
 .btn:hover {
     background-color: #ce587b;
 }
 
-/* PORTFOLIO SECTION */
-
-.portfolios {
-    padding: 0;
-    padding-top: 3rem;
-}
 
 .title-heading {
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     color: rgba(0,0,0,.7)
 }
 
@@ -206,6 +200,14 @@ nav {
     font-size: 1.6rem;
     font-weight: 900;
     font-family: sans-serif;
+}
+
+
+/* PORTFOLIO SECTION */
+
+.portfolios {
+    padding: 0;
+    padding-top: 3rem;
 }
 
 .portfolio-grid {
@@ -296,6 +298,14 @@ nav {
     margin: 2rem 1rem;
 }
 
+.resume-education-item p{
+    margin-bottom: 1rem;
+}
+
+.resume-education-item img {
+    border: 3px solid rgba(44,62,80,.5);
+}
+
 .certificate-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -308,13 +318,12 @@ nav {
 }
 
 
-
 /* ABOUT ME SECTION */
 
 .abouts {
     width: 100%;
-    height: 80vh;
-    background: linear-gradient(135deg, rgba(44,62,80,.9) 0%, rgba(72,56,149,0.8) 100%), url("images/header-bg.png")  center no-repeat fixed;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(55, 64, 73, 0.8) 0%, rgba(72,56,149,0.5) 100%), url("images/bg-1.jpeg")  center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
@@ -331,38 +340,45 @@ nav {
     background-size: cover;
 }
 
-.about {
-    width: 100%;
-    color: #fafafa;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.about-heading {
+    /* padding-top: 1rem; */
     text-align: center;
+    margin-bottom: 3rem;
+    color: #fafafa;
 }
 
-.about-text-box {
-    padding: 0 1.5rem;
+.about-heading h3 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.about-heading h1 {
+    text-transform: uppercase;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 2rem;
+    margin: .5rem 0 1rem;
+}
+
+.about-heading span {
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+
+.about-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
     margin-bottom: 2rem;
-    position: relative;
 }
 
-.about-text-box i {
-    position: absolute;
-    top: -8rem;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 8rem;
-    color: #eb648c;
-    opacity: .5;
-    z-index: -1;
-}
-
-.about-customer img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+.about-grid-item img {
+    width: 22rem;
+    height: 22rem;
     border: 3px solid #eb648c;
+    border-radius: 50%;
 }
 
 /* CONTACT SECTION */
@@ -429,6 +445,14 @@ footer{
     .main-message{
         transform: translateY(40%);
     }
+
+    .about-heading {
+        padding-top: 0rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        color: #fafafa;
+    }
+
 }
 
 @media screen and (min-width: 470px) {
@@ -442,6 +466,35 @@ footer{
         height: 9.4rem;
         background: url("images/wave-medium-reversed.png");
         background-size: cover;
+    }
+
+}
+
+/* @media screen and (max-width: 580px) {
+
+    .about-grid-item img {
+        width: 13rem;
+        height: 13rem;
+        border: 3px solid #eb648c;
+        border-radius: 50%;
+    }
+} */
+
+@media screen and (max-width: 580px) and (max-height: 750px) {
+    .about-grid-item img {
+        width: 7rem;
+        height: 7rem;
+        border: 2px solid #eb648c;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .about-heading {
+        padding-top: 4rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        color: #fafafa;
     }
 }
 
@@ -510,6 +563,21 @@ footer{
     .title-heading h1 {
         font-size: 2.5rem;
     }
+
+    .about-heading {
+        padding-top: 16rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #fafafa;
+    }
+
+    .about-grid-item img {
+        width: 25rem;
+        height: 25rem;
+        border: 3px solid #eb648c;
+        border-radius: 50%;
+    }
+    
 }
 
 @media screen and (min-width: 950px) { 
