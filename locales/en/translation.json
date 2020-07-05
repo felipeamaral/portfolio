@@ -1,0 +1,65 @@
+{
+    "main_text": "Sou product manager, dev e entusiasta de UX, tentando ajudar as pessoas a resolverem seus problemas através de bons produtos.",
+    "buttom": {
+        "more_about_me": "more about me",
+        "my_resume": "check my resume"
+    },
+    "header": {
+        "portfolio": "portfolio",
+        "resume": "resume",
+        "about_me": "about me",
+        "contact": "contact"
+    },
+    "portfolio": {
+        "subtitle": "my",
+        "main_title": "Projects",
+        "description": "Here you can find a little bit more about some personal projects and previous work.",
+        "project_1": {
+            "first_paragraph": "Porfolio pessoal, para divulgar meus trabalhos e apresentar minha experiência profissional.",
+            "second_paragraph": "Este projeto foi desenvolvido usando apensar HTML, CSS e Javascript."
+        },
+        "project_2": {
+            "first_paragraph": "Aplicativo para controle de gastos pessoais e de gastos compartilhados em casa ou viagens.",
+            "second_paragraph": "O projeto foi desenvolvido usando React Native e Node."
+        }
+    },
+    "resume": {
+        "subtitle": "work",
+        "main_title": "Experience",
+        "description": "Atualmente sou Product Manager na PontoTel, uma empresa voltada para o setor de RH e com a missão de melhorar a experiência no controle de ponto e na gestão de pessoas. Tenho mais de 4 anos de experiência em desenvolvimento de produtos digitais, participando do processo desde a concepção e planejamento até a entrega do produto.",
+        "titles": {
+            "education": "Education",
+            "work": "Work experience",
+            "certificate": "Certificates"
+        },
+        "education": {
+            "course_1": "BS in Computer Science",
+            "course_2": "BS IN COMPUTER SCIENTE - Associate Student"
+        },
+        "work": {
+            "pontotel": {
+                "date": "since 07/2015",
+                "desc_1": "Comecei na PontoTel como estágiario, depois me tornei desenvolvedor, liderando projetos tanto para entrega de novos produtos/funcionalidade quanto para integração entre sistemas.",
+                "desc_2": "Hoje atuo como Product Manager, ajudando na definição de roadmap e participando de todo o processo de vida do produto - entendimento do problema e conversa com usuário, ideação, definição, entrega e melhorias continuas."
+            },
+            "opus": {
+                "desc_1": "Intern - Software Development"
+            }
+        }
+    },
+    "about_me": {
+        "subtitle": "a little bit more",
+        "main_title": "about me",
+        "section": {
+            "first_paragraph": "Sou natural de Araraquara (SP) e atualmente moro em São Paulo. Tive a oportunidade de morar em outros lugares como São Carlos (SP) onde cursei ciências da computação no Instituto de Ciências Matematicas e de Computação (ICMC) da USP e também em Londres, onde puder estudar na Queen Mary, University of London pelo programa Ciências sem Fronteiras.",
+            "second_paragraph": "Nos últimos anos tenho trabalhado com desenvolvimento de produtos digitais, principalmente SaaS voltados para o mercado B2B. Tive a oportunidade de passar por todas as etapas do processo de desenvolvimento de software - desde a concepção da ideia até a construção dos software e hoje, atuando como Product Manager, procuro ajudar a equipe de produto a encontrar as melhores oportunidades e a entregar produtos que agreguem valor aos clientes da PontoTel. ",
+            "third_paragraph": "Amo viajar e gosto, principalmente, do desafio de viajar sozinho pelo mundo. O Palmeiras é outra paixão que eu tenho nessa vida e sempre que posso vou ao estádio acompanhar - e sofrer - de perto. Além disso, sou 'pai' de dois gatinhos - kiki e suri - que adoram ficar grudados e de fazer arte :)"
+        }
+    },
+    "contact": {
+        "subtitle": "Did you like?",
+        "main_title": "Contact me",
+        "description_1": "You can send me a message to my personal email:",
+        "description_2": "Also, you can find me in the following social medias"
+    }
+}

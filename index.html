@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta chartset="UTF-8">
     <meta name="viewport"
-          content="width=device.width, user-scalabe=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Felipe Amaral | Home </title>
 
@@ -16,6 +16,10 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
 
     <!-- Social Media Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,16 +47,24 @@
                         <i class="icon ion-md-close"></i>
                     </div>
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">projetos</a>
+                        <a id="header_portfolio" href="#portfolio" class="nav-link">projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">curriculo</a>
+                        <a id="header_resume" href="#resume" class="nav-link">curriculo</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">sobre mim</a>
+                        <a id="header_about_me" href="#about" class="nav-link">sobre mim</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">contato</a>
+                        <a id="header_contact" href="#contact" class="nav-link">contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link" onclick="i18next.changeLanguage('en')">
+                            <img src="images/uk.png" alt="english">
+                        </a>
+                        <a href="" class="nav-link" onclick="i18next.changeLanguage('pt')">
+                            <img src="images/brazil.png" alt="portuguese">
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -64,11 +76,11 @@
             <div class="container">
                 <div class="main-message">
                     <h1>Felipe Amaral</h1>
-                    <p>
+                    <p id="main_text">
                         Sou product manager, dev e entusiasta de UX, tentando ajudar as pessoas a resolverem seus problemas através de bons produtos.
                     </p>
                     <div class="cta">
-                        <a href="#about" class="btn" alt="botão mais sobre mim"> mais sobre mim</a>
+                        <a id="buttom_more_about_me" href="#about" class="btn" alt="botão mais sobre mim"> mais sobre mim</a>
                     </div>
                 </div>
             </div>
@@ -78,18 +90,18 @@
         <section id="portfolio" class="portfolios">
             <div class="container">
                 <div class="title-heading">
-                    <h3> meus </h3>
-                    <h1>Projetos</h1>
-                    <p>Aqui você poderá encontrar um pouco mais sobre alguns projetos pessoais e trabalhos anteriores</p>
+                    <h3 id="portfolio_title_1"> meus </h3>
+                    <h1 id="portfolio_title_2">Projetos</h1>
+                    <p id="portfolio_title_3">Aqui você poderá encontrar um pouco mais sobre alguns projetos pessoais e trabalhos anteriores</p>
                 </div>
                 <div class="portfolio-grid">
                     <div class="portfolio-grid-item">
                         <i class="icon ion-md-person"></i>
                         <h1> Portfolio </h1>
-                        <p>
+                        <p id="project_1_portfolio_desc_1" >
                             Porfolio pessoal, para divulgar meus trabalhos e apresentar minha experiência profissional.
                         </p>
-                        <p>
+                        <p id="project_1_portfolio_desc_2">
                             Este projeto foi desenvolvido usando apensar HTML, CSS e Javascript.
                         </p>
                         <div>
@@ -100,10 +112,10 @@
                     <div class="portfolio-grid-item">
                         <i class="icon ion-md-wallet"></i>
                         <h1>Splitz</h1>
-                        <p> 
+                        <p id="project_2_portfolio_desc_1" >
                             Aplicativo para controle de gastos pessoais e de gastos compartilhados em casa ou viagens.
                         </p>
-                        <p>
+                        <p id="project_2_portfolio_desc_2" >
                             O projeto foi desenvolvido usando React Native e Node.
                         </p>
                         <div>
@@ -118,44 +130,44 @@
         <section id="resume" class="resumes">
             <div class="container">
                     <div class="title-heading">
-                        <h3> Experiência </h3>
-                        <h1>Profissional</h1>
-                        <p>
+                        <h3 id="resume_title_1"> Experiência </h3>
+                        <h1 id="resume_title_2">Profissional</h1>
+                        <p id="resume_title_3">
                             Atualmente sou Product Manager na PontoTel, uma empresa voltada para o setor de RH e com a missão de melhorar a experiência no controle de ponto e na gestão de pessoas. 
                             Tenho mais de 4 anos de experiência em desenvolvimento de produtos digitais, participando do processo desde a concepção e planejamento até a entrega do produto.
                         </p>
                     </div>
                     <div class="resume-grid">
                         <div class="resume-grid-item">
-                            <h1>Formação Academica</h1>
+                            <h1 id="resume_titles_education">Formação Academica</h1>
                             <div class="resume-education-item">
-                                <h3>Bacharelado em ciências da computação</h3>
+                                <h3 id="resume_education_course_1">Bacharelado em ciências da computação</h3>
                                 <p> Universidade de São Paulo (USP) </p>
                                 <p> 2010-2015 </p>    
                             </div>
                             <div class="resume-education-item">
-                                <h3>Bs in Computer Sciente - Graduação sanduiche</h3>
+                                <h3 id="resume_education_course_2"> Bs in Computer Sciente - Graduação sanduiche</h3>
                                 <p> Queen Mary, University of London </p>
                                 <p> 2013-2014 </p>    
                             </div>        
                         </div>
                         <div class="resume-grid-item">
-                            <h1>Experiência profissional</h1>
+                            <h1 id="resume_titles_work">Experiência profissional</h1>
                             <div class="resume-education-item">
                                 <h3>PontoTel</h3>
-                                <p> 06/2015 - atual </p>
-                                <p> Comecei na PontoTel como estágiario, depois me tornei desenvolvedor, liderando projetos tanto para entrega de novos produtos/funcionalidade quanto para integração entre sistemas.</p>    
-                                <p> Hoje atuo como Product Manager, ajudando na definição de roadmap e participando de todo o processo de vida do produto - entendimento do problema e conversa com usuário, ideação, definição, entrega e melhorias continuas.</p>    
+                                <p id="pontotel_date"> 07/2015 - atual </p>
+                                <p id="pontotel_desc_1"> Comecei na PontoTel como estágiario, depois me tornei desenvolvedor, liderando projetos tanto para entrega de novos produtos/funcionalidade quanto para integração entre sistemas.</p>    
+                                <p id="pontotel_desc_2"> Hoje atuo como Product Manager, ajudando na definição de roadmap e participando de todo o processo de vida do produto - entendimento do problema e conversa com usuário, ideação, definição, entrega e melhorias continuas.</p>    
                             </div>
                             <div class="resume-education-item">
                                 <h3>Opus Software</h3>
-                                <p> jan/2015 - 06/2015 </p>
-                                <p> Estagiário em desenvolvimento de sistemas </p>    
+                                <p> 01/2015 - 07/2015 </p>
+                                <p id="opus_desc_1"> Estagiário em desenvolvimento de sistemas </p>    
                             </div>
                         </div>
                     </div>
                     <div class="resume-grid-item">
-                        <h1>Certificados</h1>
+                        <h1 id="resume_titles_certificate" >Certificados</h1>
                         <div class="certificate-grid">
                             <div class="resume-education-item">
                                 <h3> Product Manager </h3>
@@ -164,7 +176,7 @@
 
                             </div>
                             <div class="resume-education-item">
-                                <h3> Formação em UX Design </h3>
+                                <h3> UX Design </h3>
                                 <p> Mergo UX - 2019</p>
                                 <img src="images/ux.png" alt="certificado de ux design">
                             </div>
@@ -173,41 +185,37 @@
                         
                     </div>
                     <div class="resume-button">
-                        <a class="btn" href="#resume" alt="botão veja meu curriculo"> veja meu curriculo</a>
+                        <a id="buttom_my_resume" class="btn" href="#resume" alt="botão veja meu curriculo"> veja meu curriculo</a>
                     </div>
                 </div>
         </section>
         <section id="about" class="abouts">
             <div class="container">
                 <div class="about-heading">
-                        <h3> um pouco mais </h3>
-                        <h1>sobre mim</h1>
+                        <h3 id="about_title_1" > um pouco mais </h3>
+                        <h1 id="about_title_2" >sobre mim</h1>
                         
 
                     </div>
                 <div class="about-grid">
                     <!-- <div></div> -->
                     <div class="about-grid-item">
-                        <p>
+                        <p id="about_desc_1">
                             Sou natural de Araraquara (SP) e atualmente moro em São Paulo. Tive a oportunidade de morar em outros lugares como São Carlos (SP) onde cursei ciências da computação
                             no Instituto de Ciências Matematicas e de Computação (ICMC) da USP e também em Londres, onde puder estudar na Queen Mary, University of London pelo programa Ciências sem Fronteiras.
                         </p>
-                        <p>
+                        <p id="about_desc_2">
                             Nos últimos anos tenho trabalhado com desenvolvimento de produtos digitais, principalmente SaaS voltados para o mercado B2B. 
                             Tive a oportunidade de passar por todas as etapas do processo de desenvolvimento de software - desde a concepção da ideia até a construção dos software e
                             hoje, atuando como Product Manager, procuro ajudar a equipe de produto a encontrar as melhores oportunidades e a entregar produtos que agreguem valor aos clientes da PontoTel. 
 
                         </p>
-                        <p>
+                        <p id="about_desc_3">
                             Amo viajar e gosto, principalmente, do desafio de viajar sozinho pelo mundo. 
                             O Palmeiras é outra paixão que eu tenho nessa vida e sempre que posso vou ao estádio acompanhar - e sofrer - de perto.
                             Além disso, sou "pai" de dois gatinhos - kiki e suri - que adoram ficar grudados e de fazer arte :)
 
                         </p>
-                    </div>
-                    <div class="about-grid-item">
-                        <img src="images/uyuni.jpeg" alt="deserto do uyuni">
-                        <img src="images/casa.jpeg" alt="casa com os gatinhos">
                     </div>
                 </div>
             </div>
@@ -217,11 +225,11 @@
          <section id="contact" class="contacts">
             <div class="container">
                 <div class="title-heading">
-                    <h3> Gostou? </h3>
-                    <h1>Entre em contato</h1>
-                    <p>Você pode entrar em contato comigo diretamente pelo meu email pessoal: </p> 
+                    <h3 id="contact_title_1"> Gostou? </h3>
+                    <h1 id="contact_title_2"> Entre em contato</h1>
+                    <p id="contact_title_3"> Você pode entrar em contato comigo diretamente pelo meu email pessoal: </p> 
                     <span>amaral.felipeaugusto@gmail.com</span>
-                    <p>Também poderá me encontrar na seguintes redes sociais.</p>
+                    <p id="contact_title_4"> Também poderá me encontrar na seguintes redes sociais.</p>
                 </div>
                 <div class="contact-grid">
                     <div class="contact-grid-item">
