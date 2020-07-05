@@ -16,7 +16,7 @@
         "description": "Aqui você poderá encontrar um pouco mais sobre alguns projetos pessoais e trabalhos anteriores",
         "project_1": {
             "first_paragraph": "Porfolio pessoal, para divulgar meus trabalhos e apresentar minha experiência profissional.",
-            "second_paragraph": "Este projeto foi desenvolvido usando apensar HTML, CSS e Javascript."
+            "second_paragraph": "Este projeto foi desenvolvido usando apenas HTML, CSS e Javascript."
         },
         "project_2": {
             "first_paragraph": "Aplicativo para controle de gastos pessoais e de gastos compartilhados em casa ou viagens.",
@@ -53,7 +53,7 @@
         "section": {
             "first_paragraph": "Sou natural de Araraquara (SP) e atualmente moro em São Paulo. Tive a oportunidade de morar em outros lugares como São Carlos (SP) onde cursei ciências da computação no Instituto de Ciências Matematicas e de Computação (ICMC) da USP e também em Londres, onde puder estudar na Queen Mary, University of London pelo programa Ciências sem Fronteiras.",
             "second_paragraph": "Nos últimos anos tenho trabalhado com desenvolvimento de produtos digitais, principalmente SaaS voltados para o mercado B2B. Tive a oportunidade de passar por todas as etapas do processo de desenvolvimento de software - desde a concepção da ideia até a construção dos software e hoje, atuando como Product Manager, procuro ajudar a equipe de produto a encontrar as melhores oportunidades e a entregar produtos que agreguem valor aos clientes da PontoTel. ",
-            "third_paragraph": "Amo viajar e gosto, principalmente, do desafio de viajar sozinho pelo mundo. O Palmeiras é outra paixão que eu tenho nessa vida e sempre que posso vou ao estádio acompanhar - e sofrer - de perto. Além disso, sou 'pai' de dois gatinhos - kiki e suri - que adoram ficar grudados e de fazer arte :)"
+            "third_paragraph": "Amo viajar e gosto, principalmente, do desafio de viajar sozinho pelo mundo. O Palmeiras é outra paixão que eu tenho nessa vida e sempre que posso vou ao estádio acompanhar - e sofrer - de perto."
         }
     },
     "contact": {

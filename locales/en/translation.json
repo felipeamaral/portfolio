@@ -1,5 +1,5 @@
 {
-    "main_text": "Sou product manager, dev e entusiasta de UX, tentando ajudar as pessoas a resolverem seus problemas através de bons produtos.",
+    "main_text": "I'm a Product Manager, software engineer and UX enthusiast, who seeks to help people solve their problems by creating useful products",
     "buttom": {
         "more_about_me": "more about me",
         "my_resume": "check my resume"
@@ -13,20 +13,20 @@
     "portfolio": {
         "subtitle": "my",
         "main_title": "Projects",
-        "description": "Here you can find a little bit more about some personal projects and previous work.",
+        "description": "Here you can find a little bit more about my personal projects and previous work.",
         "project_1": {
-            "first_paragraph": "Porfolio pessoal, para divulgar meus trabalhos e apresentar minha experiência profissional.",
-            "second_paragraph": "Este projeto foi desenvolvido usando apensar HTML, CSS e Javascript."
+            "first_paragraph": "Personal portfolio, created to share my personal projects and my professional work.",
+            "second_paragraph": "This project was developed using only HTML, CSS and Javascript."
         },
         "project_2": {
-            "first_paragraph": "Aplicativo para controle de gastos pessoais e de gastos compartilhados em casa ou viagens.",
-            "second_paragraph": "O projeto foi desenvolvido usando React Native e Node."
+            "first_paragraph": "A finance app created to help people control their money, specially when they split costs at home.",
+            "second_paragraph": "This project was developed using React Native and Node."
         }
     },
     "resume": {
         "subtitle": "work",
         "main_title": "Experience",
-        "description": "Atualmente sou Product Manager na PontoTel, uma empresa voltada para o setor de RH e com a missão de melhorar a experiência no controle de ponto e na gestão de pessoas. Tenho mais de 4 anos de experiência em desenvolvimento de produtos digitais, participando do processo desde a concepção e planejamento até a entrega do produto.",
+        "description": "I'm currently a Product Manager @PontoTel, a company focused on HR and with a mission to improve the experience with time and attendance control and people management. I have more than 4 years of expirience in building digital products and I'm used to work in the whole process, from the problem understanding/solution conception to the product delivery.",
         "titles": {
             "education": "Education",
             "work": "Work experience",
@@ -39,8 +39,8 @@
         "work": {
             "pontotel": {
                 "date": "since 07/2015",
-                "desc_1": "Comecei na PontoTel como estágiario, depois me tornei desenvolvedor, liderando projetos tanto para entrega de novos produtos/funcionalidade quanto para integração entre sistemas.",
-                "desc_2": "Hoje atuo como Product Manager, ajudando na definição de roadmap e participando de todo o processo de vida do produto - entendimento do problema e conversa com usuário, ideação, definição, entrega e melhorias continuas."
+                "desc_1": "I've started at PontoTel as a software develeoper intern and after 6 months I became a software engineer there. During this time i've lead lots of projects, including new products and system integrations.",
+                "desc_2": "Nowadays I work as Product Manager, helping in the roadpmap definition and working through the whole process of the product life, helping the product team in the product discovery and delivery."
             },
             "opus": {
                 "desc_1": "Intern - Software Development"
@@ -51,9 +51,9 @@
         "subtitle": "a little bit more",
         "main_title": "about me",
         "section": {
-            "first_paragraph": "Sou natural de Araraquara (SP) e atualmente moro em São Paulo. Tive a oportunidade de morar em outros lugares como São Carlos (SP) onde cursei ciências da computação no Instituto de Ciências Matematicas e de Computação (ICMC) da USP e também em Londres, onde puder estudar na Queen Mary, University of London pelo programa Ciências sem Fronteiras.",
-            "second_paragraph": "Nos últimos anos tenho trabalhado com desenvolvimento de produtos digitais, principalmente SaaS voltados para o mercado B2B. Tive a oportunidade de passar por todas as etapas do processo de desenvolvimento de software - desde a concepção da ideia até a construção dos software e hoje, atuando como Product Manager, procuro ajudar a equipe de produto a encontrar as melhores oportunidades e a entregar produtos que agreguem valor aos clientes da PontoTel. ",
-            "third_paragraph": "Amo viajar e gosto, principalmente, do desafio de viajar sozinho pelo mundo. O Palmeiras é outra paixão que eu tenho nessa vida e sempre que posso vou ao estádio acompanhar - e sofrer - de perto. Além disso, sou 'pai' de dois gatinhos - kiki e suri - que adoram ficar grudados e de fazer arte :)"
+            "first_paragraph": "I am from Araraquara (SP) and currently live in São Paulo. I had the opportunity to live in other places like São Carlos (SP) where I studied computer science at USP's Institute of Mathematics and Computer Sciences (ICMC) and also in London, where I could study at Queen Mary, University of London throughout brazilian government scholarshop called Sciences Without Borders.I am from Araraquara (SP) and currently live in São Paulo. I had the opportunity to live in other places like São Carlos (SP) where I studied computer science at USP's Institute of Mathematics and Computer Sciences (ICMC) and also in London, where I could study at Queen Mary, University of London.",
+            "second_paragraph": "In the past years I have been working with digital product development, mainly SaaS focused at the B2B market. I had the opportunity to go through all the stages of the software development process and today, acting as Product Manager, I try to help the product team to find the best opportunities and deliver great products that create value to PontoTel customers.",
+            "third_paragraph": "I love to travel and I find the experience of traveling solo a great challenge - which I really enjoy. The football team Palmeiras is another passion I have in life and whenever I can, I go to the match in the stadium."
         }
     },
     "contact": {
